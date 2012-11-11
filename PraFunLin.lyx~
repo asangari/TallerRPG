@@ -186,7 +186,7 @@ En la linea de comandos teclee la ecuación de la recta que pasa por dos
  puntos.
 \begin_inset Formula 
 \[
-a_{1}:(y-A_{y})\left(B_{x}-A_{x}\right)=\left(x-A_{x}\right)\left(B_{y}-A_{y}\right)
+a_{1}:(y-A_{y})/\left(B_{y}-A_{y}\right)=\left(x-A_{x}\right)/\left(B_{x}-A_{x}\right)
 \]
 
 \end_inset
