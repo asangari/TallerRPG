@@ -820,11 +820,11 @@ name "volver1"
 \end_layout
 
 \begin_layout Enumerate
-Realice la construcción de los mismos y la grabe en un archivo ggb.
+Realice la construcción de los mismos y grabe en un archivo .ggb.
 \end_layout
 
 \begin_layout Enumerate
-Guarde la figura como imagen, en un archivo png, con el mismo nombre que
+Guarde la figura como imagen, en un archivo .png, con el mismo nombre que
  el punto en cuestión.
  (
 \shape italic
@@ -872,6 +872,13 @@ reference "sub:Acceso-a-herramientas"
  
 \end_layout
 
+\begin_layout Exercise
+Implementar una herramienta que permita la costrucción de un triángulo equilater
+o teniendo como dato un segmento y anéxela a la barra de herramientas para
+ que quede disponible.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Definition
 El punto de Fermat (o de Torricelli) es la intersección de las rectas que
@@ -879,6 +886,7 @@ El punto de Fermat (o de Torricelli) es la intersección de las rectas que
  los lados de un triángulo dado al vértice opuesto de este último triángulo.
 \end_layout
 
+\begin_deeper
 \begin_layout Exercise
 Construya una herramienta para el punto de Fermat y anéxela a la barra de
  herramientas para que quede disponible.
