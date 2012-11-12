@@ -1,0 +1,104 @@
+% This file was created with JabRef 2.5.
+% Encoding: Cp1252
+\renewcommand{\refname}{\normalsize Bibliografía}
+<<<<<<< HEAD
+
+=======
+>>>>>>> e1330aa522ae368a2ea3caae67f7ae1e6eababc0
+
+@book{coxeter1996geometry,
+  title={Geometry Revisited},
+  author={Coxeter, H.S.M. and Greitzer, S.L.},
+  number={v. 19},
+  isbn={9780883856192},
+  lccn={67020607},
+  series={New Mathematical Library},
+  url={http://books.google.com.ar/books?id=VdAM58ksvcIC},
+  year={1996},
+  publisher={Mathematical Association of America}
+}
+
+@book{boyer2011history,
+  title={A History of Mathematics},
+  author={Boyer, C.B. and Merzbach, U.C.},
+  isbn={9780470630563},
+  url={http://books.google.com.ar/books?id=BokVHiuIk9UC},
+  year={2011},
+  publisher={John Wiley \& Sons}
+}
+@book{pastor2000historia,
+  title={Historia de la matem{\'a}tica},
+  author={Pastor, J.R. and Babini, J.},
+  isbn={9788474328097},
+  series={Historia. Serie Cladema},
+  url={http://books.google.com.ar/books?id=gCtdJAAACAAJ},
+  year={2000},
+  publisher={Gedisa}
+}
+@book{struik1980historia,
+  title={Historia concisa de las matem{\'a}ticas},
+  author={Struik, D.J. and Noriega, P.L.},
+  isbn={9789682910456},
+  series={Ciencia y T{\'e}cnica},
+  url={http://books.google.com.ar/books?id=sAa7YgEACAAJ},
+  year={1980},
+  publisher={Instituto Polit{\'e}cnico Nacional}
+}
+@book{vasiliev1980rectas,
+  title={Rectas y Curvas},
+  author={Vasiliev, N.B. and Gutenm{\'a}jer, V.L. and G{\'o}mez, M.},
+  url={http://books.google.com.ar/books?id=H\_YJcgAACAAJ},
+  year={1980},
+  publisher={Mir}
+}
+@book{hilbert1999geometry,
+  title={Geometry and the Imagination},
+  author={HILBERT, D.A. and Cohn-Vossen, D.H.S.},
+  isbn={9780821819982},
+  lccn={99015535},
+  series={AMS Chelsea Publishing Series},
+  url={http://books.google.com.ar/books?id=d6sBd9h1HbMC},
+  year={1999},
+  publisher={AMS Chelsea Pub.}
+}
+@book{david2006foundations,
+  title={The Foundations Of Geometry},
+  author={David Hilbert, E.J.T. and Townsend, E.J.},
+  isbn={9781428619258},
+  url={http://books.google.com.ar/books?id=8p5SCViawCYC},
+  year={2006},
+  publisher={Lightning Source Incorporated}
+}
+@book{de2006teoría,
+  title={Teor{\'\i}a de grupos y teor{\'\i}a de Galois},
+  author={de Viola Priola, A.M. and Prioli, J.E.V.},
+  isbn={9788429151633},
+  url={http://books.google.com.ar/books?id=qn6o3NlslOEC},
+  year={2006},
+  publisher={Revert{\'e}}
+}
+@book{coxeter1994retorno,
+  title={Retorno ala Geometr{\'\i}a},
+  author={Coxeter, H.S.M. and Greitzer, S.L.},
+  isbn={9788460487265},
+  series={La Tortuga de Aquiles},
+  url={http://books.google.com.ar/books?id=9ZU9AAAACAAJ},
+  year={1994},
+  publisher={Euler}
+}
+@book{group2010uniform,
+  title={Uniform Polyhedr: Archimedean Solids, Kepler-Poinsot Polyhedra, Platonic Solids, Quasiregular Polyhedra, Regular Polyhedra, Tetrahedron},
+  author={Group, B. and Books, LLC},
+  isbn={9781156140093},
+  url={http://books.google.com.ar/books?id=eUckSgAACAAJ},
+  year={2010},
+  publisher={General Books LLC}
+}
+@book{books2010uniform,
+  title={Uniform Polyhedr: Antiprism, Rhombicuboctahedron, Truncated Icosahedron, Uniform Polyhedron, List of Uniform Polyhedra},
+  author={Books Group Staff and Wikipedia, S. and Books, LLC and Group, B.},
+  isbn={9781157617945},
+  url={http://books.google.com.ar/books?id=UctJYgEACAAJ},
+  year={2010},
+  publisher={General Books}
+}
