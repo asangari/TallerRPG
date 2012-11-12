@@ -66,7 +66,7 @@ enumitem
 
 \begin_body
 
-\begin_layout Title
+\begin_layout Section
 Función Lineal
 \end_layout
 
@@ -151,7 +151,7 @@ Explore las combinaciones
 \end_layout
 
 \end_deeper
-\begin_layout Standard
+\begin_layout Subsection
 Representación gráfica de una función lineal: Ecuaciones de una recta.
 \end_layout
 
@@ -182,6 +182,42 @@ Cree cuatro deslizadores
 \end_layout
 
 \begin_layout Enumerate
+Fije los deslizadores 
+\begin_inset Formula $A_{x}$
+\end_inset
+
+ en 
+\begin_inset Formula $4$
+\end_inset
+
+, 
+\begin_inset Formula $A_{y}$
+\end_inset
+
+ en 
+\begin_inset Formula $5$
+\end_inset
+
+, 
+\begin_inset Formula $B_{x}$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+ y 
+\begin_inset Formula $B_{y}$
+\end_inset
+
+ en 
+\begin_inset Formula $2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
 En la linea de comandos teclee la ecuación de la recta que pasa por dos
  puntos.
 \begin_inset Formula 
@@ -199,6 +235,70 @@ Con el puntero modifique el valor de los deslizadores.
  
 \end_layout
 
+\begin_layout Enumerate
+En la barra de comandos escriba 
+\begin_inset Formula $A=\left(A_{x},A_{y}\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $B=\left(B_{x},B_{y}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Cree el deslizador 
+\begin_inset Formula $t$
+\end_inset
+
+, fije el valor mínimo en 0, el máximo en 1 y el incremento en 
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+En la barra de comandos teclee 
+\begin_inset Formula 
+\begin{equation}
+X=A+t\left(B-A\right)\label{eq:ec de mov}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Con el botón derecho del mouse fije animación automática sobre el deslizador.
+\end_layout
+
+\begin_layout Enumerate
+Cambie las velocidades de desplazamiento del punto 
+\begin_inset Formula $X$
+\end_inset
+
+ a 2 y a 
+\begin_inset Formula $0.5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué representa la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:ec de mov"
+
+\end_inset
+
+? 
+\end_layout
+
 \begin_layout Exercise
 Abra el archivo 
 \begin_inset Quotes eld
@@ -212,12 +312,12 @@ Parámetros de una recta.ggb
 \end_layout
 
 \begin_layout Enumerate
-Mueva los deslizadores y obtenga una representación gráfico del parámetro
+Mueva los deslizadores y obtenga una representación gráfica del parámetro
  considerado.
 \end_layout
 
 \begin_layout Enumerate
-Identifique: pendientes, ordenadas al origen, intersecciónes con lo ejes,
+Identifique: pendientes, ordenadas al origen, intersecciones con lo ejes,
  distancias al origen, y demás significados gráficos de los parámetros.
 \end_layout
 
