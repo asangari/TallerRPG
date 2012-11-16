@@ -202,7 +202,7 @@ Vaya al inicio de la construcción e interprete los pasos en la Vista Algebraica
 \begin_layout Enumerate
 Busque la herramienta Tangentes (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/perpendicular.png
+	filename perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -215,7 +215,7 @@ Busque la herramienta Tangentes (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/tangente.png
+	filename tangente.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -547,7 +547,7 @@ si los ángulos opuestos de un cuadrilátero son suplementarios, entonces
 \end_deeper
 \end_deeper
 \begin_layout Definition
-Un ángulo se dice seminscrito en una circunferencia si tiene su vértice
+Un ángulo se dice seminscrito en una circunferencia8 si tiene su vértice
  en ella, uno de sus lados tangente y el otro secante a la misma.
 \end_layout
 
@@ -686,9 +686,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/ceva.png
-	lyxscale 20
-	scale 40
+	filename ceva.png
+	lyxscale 30
 
 \end_inset
 
@@ -1096,7 +1095,7 @@ Dibuje un triángulo
 
  (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/poligono.png
+	filename poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1109,7 +1108,7 @@ Dibuje un triángulo
 \begin_layout Enumerate
 Determine los puntos medios de los lados (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/punto.png
+	filename punto.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1122,7 +1121,7 @@ Determine los puntos medios de los lados (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/pto-medio.png
+	filename pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1167,7 +1166,7 @@ Marque el ortocentro (Ortocentro, herramienta creada)
 \begin_layout Enumerate
 Determine los pies de las alturas (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/perpendicular.png
+	filename perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1180,7 +1179,7 @@ Determine los pies de las alturas (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/interseccion.png
+	filename interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1214,7 +1213,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Determine los puntos medios entre los vértices y el ortocentro (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/pto-medio.png
+	filename pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1227,7 +1226,7 @@ Determine los puntos medios entre los vértices y el ortocentro (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/interseccion.png
+	filename interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1260,7 +1259,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Trace la circunferencia de los 9 puntos (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/circunferencia.png
+	filename circunferencia.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1273,7 +1272,7 @@ Trace la circunferencia de los 9 puntos (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/tres-puntos.png
+	filename tres-puntos.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1290,7 +1289,7 @@ Compruebe que existe para cualquier
 
  (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/arrastra.png
+	filename arrastra.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1577,10 +1576,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/FormulaEuler.png
-	lyxscale 10
-	scale 30
-	groupId Figuras
+	filename FormulaEuler.png
+	lyxscale 30
+	scale 65
 
 \end_inset
 
@@ -1744,10 +1742,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/TrasladaCircunf.png
-	lyxscale 10
-	scale 30
-	groupId Figuras
+	filename carpeta sin título/TrasladaCircunf.png
+	lyxscale 20
+	scale 35
 
 \end_inset
 
@@ -1761,7 +1758,7 @@ name "fig:Composición-de-Traslaciones"
 
 \end_inset
 
-Composición de Traslaciones
+Composición de traslaciones
 \end_layout
 
 \end_inset
@@ -1817,7 +1814,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/TrasladaSegmento.png
+	filename carpeta sin título/TrasladaSegmento.png
 	lyxscale 40
 	scale 80
 
@@ -1879,7 +1876,7 @@ Construya
 
  equilátero (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/poligono.png
+	filename /home/cristina/GeoGebra unsa/poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1958,11 +1955,11 @@ Se llama rotación de centro
 \begin_inset Formula $\theta$
 \end_inset
 
- a la transformación del plano en sí mismo, que a todo punto 
+ a la transformación, que a todo punto 
 \begin_inset Formula $P$
 \end_inset
 
- del mismo le hace corresponder como imagen un punto 
+ le hace corresponder como imagen un punto 
 \begin_inset Formula $P'$
 \end_inset
 
@@ -1977,6 +1974,198 @@ Se llama rotación de centro
 .
 \end_layout
 
+\begin_layout Definition
+Convenimos que el ángulo es positivo si el giro es en sentido antihorario,
+ negativo en caso contrario.
+\end_layout
+
+\begin_layout Exercise
+Encuentre el ángulo y el centro de giro del autito.
+ Abra el archivo Auto.ggb
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sea 
+\begin_inset Formula $ABC$
+\end_inset
+
+ un triángulo acutángulo y sea 
+\begin_inset Formula $P$
+\end_inset
+
+ un punto interior, rote el triángulo 
+\begin_inset Formula $APB$
+\end_inset
+
+, alrededor de 
+\begin_inset Formula $B$
+\end_inset
+
+ con un ángulo de 
+\begin_inset Formula $60^{\circ}$
+\end_inset
+
+ de modo que obtenga el triángulo 
+\begin_inset Formula $C'P'B$
+\end_inset
+
+.
+ Justifique que la longitud de la poligonal 
+\begin_inset Formula $C'P'PC$
+\end_inset
+
+ es igual a la suma de los segmentos que unen el punto 
+\begin_inset Formula $P$
+\end_inset
+
+ con cada uno de los vértices.
+ Es decir 
+\begin_inset Formula $C'P'+P'P+PC=AP+BP+CP$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+Una simetría axial de eje 
+\begin_inset Formula $e$
+\end_inset
+
+ es una transformación que hace corresponder a cada punto 
+\begin_inset Formula $P$
+\end_inset
+
+ otro punto 
+\begin_inset Formula $P'$
+\end_inset
+
+ tal que la recta 
+\begin_inset Formula $e$
+\end_inset
+
+ es mediatriz del segmento 
+\begin_inset Formula $PP'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Compruebe si la inicial de su nombre y/o apellido tiene simetría de eje
+ horizontal y vertical.
+ Si es así, tiene un premio.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sea el triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+, construya un triángulo arbitrario 
+\begin_inset Formula $UVW$
+\end_inset
+
+, donde 
+\begin_inset Formula $U$
+\end_inset
+
+ está en 
+\begin_inset Formula $BC$
+\end_inset
+
+, 
+\begin_inset Formula $V$
+\end_inset
+
+ en 
+\begin_inset Formula $CA$
+\end_inset
+
+ y 
+\begin_inset Formula $W$
+\end_inset
+
+ en 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ Sean 
+\begin_inset Formula $U'$
+\end_inset
+
+, 
+\begin_inset Formula $U''$
+\end_inset
+
+ las imágenes de 
+\begin_inset Formula $U$
+\end_inset
+
+ por reflexión en 
+\begin_inset Formula $CA$
+\end_inset
+
+ y 
+\begin_inset Formula $CB$
+\end_inset
+
+, respectivamente.
+ Muestre que 
+\begin_inset Formula $UV+VW+WU=U'V+VW+WU'$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+El segmento 
+\begin_inset Formula $A'B'$
+\end_inset
+
+ es imagen del segmento 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ Probar que si 
+\begin_inset Formula $C$
+\end_inset
+
+ es un punto de la recta 
+\begin_inset Formula $AB$
+\end_inset
+
+, su imagen 
+\begin_inset Formula $C'$
+\end_inset
+
+ está en la recta 
+\begin_inset Formula $A'B'$
+\end_inset
+
+el trapecio 
+\begin_inset Formula $AA'BB'$
+\end_inset
+
+ tiene por diagonales 
+\begin_inset Formula $AB'$
+\end_inset
+
+ y 
+\begin_inset Formula $A'B$
+\end_inset
+
+ que son imagen una de otra.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
 \begin_layout Section
 Optimización
 \end_layout
@@ -2118,10 +2307,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/FermatFigura.png
-	lyxscale 10
-	scale 30
-	groupId Figuras
+	filename FermatFigura.png
+	lyxscale 30
+	scale 90
 
 \end_inset
 
@@ -2190,7 +2378,6 @@ un punto del primer cuadrante.
 
 en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
  encontrar el de menor área.
- 
 \end_layout
 
 \begin_deeper
@@ -2469,7 +2656,7 @@ Suponga que el vértice
  de un ángulo inscrito no está sobre la circunferencia, como muestra la
  figura 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/vertice ang ins.png
+	filename /home/cristina/GeoGebra unsa/vertice ang ins.png
 	lyxscale 15
 	scale 20
 
@@ -2633,7 +2820,7 @@ name "enu:Problema-:sug raton"
 
  (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/desliza.png
+	filename /home/cristina/GeoGebra unsa/desliza.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2710,7 +2897,7 @@ name "enu:Problema-:suger familia"
 
  (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/simetria.png
+	filename /home/cristina/GeoGebra unsa/simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2723,7 +2910,7 @@ name "enu:Problema-:suger familia"
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/rotacion.png
+	filename /home/cristina/GeoGebra unsa/rotacion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2810,7 +2997,7 @@ Las distintas herramientas para construcciones geométricas se encuentran
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/caja de herram.png
+	filename /home/cristina/GeoGebra unsa/caja de herram.png
 	scale 50
 	groupId iconos
 
@@ -3006,7 +3193,7 @@ Cómo insertar una imagen
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/texto.png
+	filename /home/cristina/GeoGebra unsa/texto.png
 	scale 50
 	groupId iconos
 
@@ -3018,7 +3205,7 @@ Cómo insertar una imagen
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/imagen.png
+	filename /home/cristina/GeoGebra unsa/imagen.png
 	scale 50
 	groupId iconos
 
