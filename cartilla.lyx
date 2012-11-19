@@ -202,7 +202,7 @@ Vaya al inicio de la construcción e interprete los pasos en la Vista Algebraica
 \begin_layout Enumerate
 Busque la herramienta Tangentes (
 \begin_inset Graphics
-	filename perpendicular.png
+	filename /media/CRISTINA/GeoGebra unsa/perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -215,7 +215,7 @@ Busque la herramienta Tangentes (
 
 
 \begin_inset Graphics
-	filename tangente.png
+	filename /media/CRISTINA/GeoGebra unsa/tangente.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -686,7 +686,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ceva.png
+	filename /media/CRISTINA/GeoGebra unsa/ceva.png
 	lyxscale 30
 
 \end_inset
@@ -895,6 +895,12 @@ description "Pies de las alturas de un triángulo"
 \end_layout
 
 \begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "Ortocentro-Incentro Ortico"
+
+\end_inset
+
 Mostrar que el ortocentro de un triángulo acutángulo es el incentro de su
  triángulo órtico.
 \end_layout
@@ -1095,7 +1101,7 @@ Dibuje un triángulo
 
  (
 \begin_inset Graphics
-	filename poligono.png
+	filename /media/CRISTINA/GeoGebra unsa/poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1108,7 +1114,7 @@ Dibuje un triángulo
 \begin_layout Enumerate
 Determine los puntos medios de los lados (
 \begin_inset Graphics
-	filename punto.png
+	filename /media/CRISTINA/GeoGebra unsa/punto.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1121,7 +1127,7 @@ Determine los puntos medios de los lados (
 
 
 \begin_inset Graphics
-	filename pto-medio.png
+	filename /media/CRISTINA/GeoGebra unsa/pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1166,7 +1172,7 @@ Marque el ortocentro (Ortocentro, herramienta creada)
 \begin_layout Enumerate
 Determine los pies de las alturas (
 \begin_inset Graphics
-	filename perpendicular.png
+	filename /media/CRISTINA/GeoGebra unsa/perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1179,7 +1185,7 @@ Determine los pies de las alturas (
 
 
 \begin_inset Graphics
-	filename interseccion.png
+	filename /media/CRISTINA/GeoGebra unsa/interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1213,7 +1219,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Determine los puntos medios entre los vértices y el ortocentro (
 \begin_inset Graphics
-	filename pto-medio.png
+	filename /media/CRISTINA/GeoGebra unsa/pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1226,7 +1232,7 @@ Determine los puntos medios entre los vértices y el ortocentro (
 
 
 \begin_inset Graphics
-	filename interseccion.png
+	filename /media/CRISTINA/GeoGebra unsa/interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1259,7 +1265,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Trace la circunferencia de los 9 puntos (
 \begin_inset Graphics
-	filename circunferencia.png
+	filename /media/CRISTINA/GeoGebra unsa/circunferencia.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1272,7 +1278,7 @@ Trace la circunferencia de los 9 puntos (
 
 
 \begin_inset Graphics
-	filename tres-puntos.png
+	filename /media/CRISTINA/GeoGebra unsa/tres-puntos.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1289,7 +1295,7 @@ Compruebe que existe para cualquier
 
  (
 \begin_inset Graphics
-	filename arrastra.png
+	filename /media/CRISTINA/GeoGebra unsa/arrastra.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1576,7 +1582,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FormulaEuler.png
+	filename /media/CRISTINA/GeoGebra unsa/FormulaEuler.png
 	lyxscale 30
 	scale 65
 
@@ -1632,7 +1638,7 @@ reference "fig:Expresión-de-Euler"
 .
  (
 \shape italic
-Ver sugerencia
+Ver
 \shape default
  
 \begin_inset CommandInset ref
@@ -1742,7 +1748,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename carpeta sin título/TrasladaCircunf.png
+	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/TrasladaCircunf.png
 	lyxscale 20
 	scale 35
 
@@ -1814,7 +1820,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename carpeta sin título/TrasladaSegmento.png
+	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/TrasladaSegmento.png
 	lyxscale 40
 	scale 80
 
@@ -1900,6 +1906,8 @@ Sobre los segmentos
 \end_inset
 
 , aplique 
+\shape italic
+Ver
 \end_layout
 
 \begin_layout Enumerate
@@ -2148,22 +2156,684 @@ El segmento
 \begin_inset Formula $A'B'$
 \end_inset
 
-el trapecio 
-\begin_inset Formula $AA'BB'$
+.
+\end_layout
+
+\begin_layout Proposition
+\begin_inset CommandInset label
+LatexCommand label
+name "prop:Si-un-paralelogramo"
+
 \end_inset
 
- tiene por diagonales 
-\begin_inset Formula $AB'$
+Si un paralelogramo y un triángulo tienen la misma base, y están comprendidos
+ entre las mismas paralelas, entonces el área del paralelogramo es doble
+ de la del triángulo.
+ Esto es tanto como decir que a igual base y altura, el área del paralelogramo
+ es el doble del área del triángulo.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sea 
+\begin_inset Formula $ABC$
+\end_inset
+
+ un triángulo rectángulo rectángulo en 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Demuestre el teorema de Pitágoras aplicando los siguientes pasos:
+\end_layout
+
+\begin_layout Enumerate
+Construya externamente cuadrados, 
+\begin_inset Formula $CFGB$
+\end_inset
+
+, 
+\begin_inset Formula $ADEC$
 \end_inset
 
  y 
-\begin_inset Formula $A'B$
+\begin_inset Formula $BIKA,$
 \end_inset
 
- que son imagen una de otra.
+ sobre los lados 
+\begin_inset Formula $a,$
+\end_inset
+
+
+\begin_inset Formula $b$
+\end_inset
+
+ y 
+\begin_inset Formula $c$
+\end_inset
+
+ respectivamente.
+\end_layout
+
+\begin_layout Enumerate
+Trace el segmento 
+\begin_inset Formula $CJ$
+\end_inset
+
+ que es prolongación de la altura 
+\begin_inset Formula $CM$
+\end_inset
+
+ (del lado 
+\begin_inset Formula $c$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Rote el triángulo 
+\begin_inset Formula $ACK$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $A$
+\end_inset
+
+ y giro de 
+\begin_inset Formula $90^{\circ}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Use la proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:Si-un-paralelogramo"
+
+\end_inset
+
+, y pruebe que 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$(ADEC)$"
+description "Área del polígono ADEC"
+
+\end_inset
+
+
+\begin_inset Formula $\left(ADEC\right)=\left(AHJK\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Rote el triángulo 
+\begin_inset Formula $BCI$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $B$
+\end_inset
+
+ y giro de 
+\begin_inset Formula $90^{\circ}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Use la proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:Si-un-paralelogramo"
+
+\end_inset
+
+ y pruebe que 
+\begin_inset Formula $\left(BCFG\right)=\left(HBIJ\right).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A partir de aquí, es inmediato que la suma de las áreas de los cuadrados
+ construidos sobre los catetos, es igual al área del cuadrado construido
+ sobre la hipotenusa.
+\end_layout
+
+\begin_layout Exercise
+Desde un mismo lado de una recta 
+\begin_inset Formula $r$
+\end_inset
+
+ se encuentran dos puntos 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Construya el camino más corto que une 
+\begin_inset Formula $A$
+\end_inset
+
+ con 
+\begin_inset Formula $B$
+\end_inset
+
+ tocando en un punto a la recta 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+En un medio homogéneo, un rayo de luz que parte desde un punto 
+\begin_inset Formula $A$
+\end_inset
+
+ a 
+\begin_inset Formula $B$
+\end_inset
+
+ pasando por un espejo, lo hace a lo largo de un camino mínimo.
+ Si el rayo incide en el espejo con un ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, halle el ángulo con que se refleja.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Dado un triángulo escaleno 
+\begin_inset Formula $ABC$
+\end_inset
+
+ cuyos lados son capaces de reflejar la luz, ¿en qué pundo del lado 
+\begin_inset Formula $AB$
+\end_inset
+
+ debería estar situada una fuente luminosa de forma que el rayo emitido,
+ después de reflejarse sucesivamente en los otros dos lados, retornara a
+ la fuente? (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:fuente de luz"
+
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Definition
+Se llama homotecia de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y razón 
+\begin_inset Formula $k$
+\end_inset
+
+ (distinto de cero) a la transformación que hace corresponder a un punto
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ otro 
+\begin_inset Formula $P'$
+\end_inset
+
+, tal que: 
+\begin_inset Formula $OP'=k\star OP$
+\end_inset
+
+.
  
 \end_layout
 
+\begin_layout Standard
+La homotecia es directa 
+\begin_inset Formula $\left(k>0\right)$
+\end_inset
+
+ o inversa 
+\begin_inset Formula $\left(k<0\right)$
+\end_inset
+
+.
+ Según 
+\begin_inset Formula $A'$
+\end_inset
+
+ esté en la semirrecta 
+\begin_inset Formula $\overrightarrow{OA}$
+\end_inset
+
+ o en la opuesta.
+ Si 
+\begin_inset Formula $k<1$
+\end_inset
+
+ es una contracción y si 
+\begin_inset Formula $k>1$
+\end_inset
+
+ es una dilatación.
+\end_layout
+
+\begin_layout Exercise
+Abra el archivo ImagenHomot.ggb.
+ Desde el punto 
+\begin_inset Formula $A$
+\end_inset
+
+ 
+\shape italic
+Ver
+\shape default
+aplique una homotecia, de razón 
+\begin_inset Formula $4$
+\end_inset
+
+ y 
+\begin_inset Formula $0.4,$
+\end_inset
+
+ a las imágenes 1 y 2 respectivamente.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Abra el archivo HomotAngulos.ggb.
+ Encuentre el centro y la razón de la homotecia aplicada a la imagen 1.
+ Luego aplíquela a la imagen 2.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "Dado-un-sector circular"
+
+\end_inset
+
+Dado un sector circular 
+\begin_inset Formula $AOB$
+\end_inset
+
+, inscriba en él un cuadrado con un lado paralelo a la cuerda 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:CuadradoSectorCirc"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "-es-un paralelogramo"
+
+\end_inset
+
+
+\begin_inset Formula $ABCD$
+\end_inset
+
+ es un paralelogramo; 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $F$
+\end_inset
+
+ puntos tales que 
+\begin_inset Formula $DE=DC$
+\end_inset
+
+ y 
+\begin_inset Formula $BF=BC$
+\end_inset
+
+ como indica la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Homotecia"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/Paralelogramo Homotecia.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Homotecia"
+
+\end_inset
+
+Ejercicio 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "-es-un paralelogramo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ Demuestre que existe una homotecia de centro 
+\begin_inset Formula $E$
+\end_inset
+
+ y razón 
+\begin_inset Formula $k$
+\end_inset
+
+ que hace corresponder al punto 
+\begin_inset Formula $C$
+\end_inset
+
+, el punto 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:ParalelogHomotecia"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Si el paralelogramo se deforma manteniendo constante la longitud de sus
+ lados, ¿cree que lo anterior sigue siendo válido?
+\end_layout
+
+\begin_layout Enumerate
+Si fija el punto 
+\begin_inset Formula $E$
+\end_inset
+
+ en el plano, ¿cómo haría para variar la razón de homotecia? Encuentre 
+\begin_inset Formula $k$
+\end_inset
+
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:ParalelogHomotecia"
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Definition
+Dada una circunferencia 
+\begin_inset Formula $w$
+\end_inset
+
+, con centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y radio 
+\begin_inset Formula $k$
+\end_inset
+
+, se llama inversión a la transformación que hace corresponder a un punto
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ otro 
+\begin_inset Formula $P'$
+\end_inset
+
+, en la semirrecta 
+\begin_inset Formula $\overrightarrow{OP}$
+\end_inset
+
+, tal que: 
+\begin_inset Formula $OP\times OP'=k^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Abra un archivo ggb.
+ Trace una circunferencia y aplique la herramienta Inversión (
+\begin_inset Graphics
+	filename /media/CRISTINA/GeoGebra unsa/simetria.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename /media/CRISTINA/GeoGebra unsa/inversion.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+).
+ Observe los casos cuando 
+\begin_inset Formula $P$
+\end_inset
+
+ está dentro, sobre y fuera de la circunferencia.
+ Justifique.
+ ¿Cuáles son los puntos fijos? ¿Es involutiva?
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sin usar la herramienta, construya el inverso de un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ interior a la circunferencia.
+ Para ello, trace la cuerda 
+\begin_inset Formula $TU$
+\end_inset
+
+ que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+ y es perpendicular a 
+\begin_inset Formula $OP$
+\end_inset
+
+.
+ Use semejanza de triángulos y pruebe que 
+\begin_inset Formula $P'$
+\end_inset
+
+ es la intersección de 
+\begin_inset Formula $OP$
+\end_inset
+
+ con la tangente que pasa por 
+\begin_inset Formula $T.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sin usar la herramienta, construya el inverso de un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ exterior a la circunferencia.
+ Para ello, trace una circunferencia que tiene como diámetro 
+\begin_inset Formula $OP$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $U$
+\end_inset
+
+ son los puntos de intersección con 
+\begin_inset Formula $w$
+\end_inset
+
+, pruebe que 
+\begin_inset Formula $P'$
+\end_inset
+
+ es el punto medio de 
+\begin_inset Formula $TU$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Justifique que la imagen de:
+\end_layout
+
+\begin_layout Enumerate
+Una recta que pasa por el origen, es la misma recta.
+\end_layout
+
+\begin_layout Enumerate
+Una recta que no pasa por el origen, es una circunferencia que pasa por
+ el origen, y recíprocamente.
+\end_layout
+
+\begin_layout Enumerate
+Una circunferencia que no pasa por el origen, es una circunferencia que
+ no pasa por el origen.
+\end_layout
+
+\begin_layout Exercise
+¿Para qué circunferencia 
+\begin_inset Formula $w$
+\end_inset
+
+ los lados de un triángulo se invierten en tres arcos de circunferencias
+ iguales?
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+¿Cómo están relacionados los triángulos 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y su imagen 
+\begin_inset Formula $A'B'C',$
+\end_inset
+
+ si 
+\begin_inset Formula $O$
+\end_inset
+
+ es: a) el centro de la circunferencia circunscrita b) el ortocentro c)
+ el incentro.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
 \end_deeper
 \end_deeper
 \begin_layout Section
@@ -2307,7 +2977,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FermatFigura.png
+	filename /media/CRISTINA/GeoGebra unsa/FermatFigura.png
 	lyxscale 30
 	scale 90
 
@@ -2788,6 +3458,96 @@ Volver al ejercicio
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "Potencia -2rR"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:fuente de luz"
+
+\end_inset
+
+Tenga en cuenta el ejercicio 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Ortocentro-Incentro Ortico"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:CuadradoSectorCirc"
+
+\end_inset
+
+Construya un cuadrado exterior sobre la cuerda 
+\begin_inset Formula $ABCD.$
+\end_inset
+
+ Ubique la intersección de 
+\begin_inset Formula $OD$
+\end_inset
+
+ y 
+\begin_inset Formula $OB$
+\end_inset
+
+ con el arco del sector circular.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Dado-un-sector circular"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:ParalelogHomotecia"
+
+\end_inset
+
+ 1.
+ Demuestre que E ,C y F están alineados.
+ Lo que es equivalente a probar que 
+\begin_inset Formula $ECD+DCB+BCF=180^{\circ}$
+\end_inset
+
+.
+ 2.
+ Dado que 
+\begin_inset Formula $\frac{EF}{EC}=k$
+\end_inset
+
+, aplique el teorema del coseno en los triángulos EDC y EAF, para encontrar
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ en función de los lados del paralelogramo.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "-es-un paralelogramo"
 
 \end_inset
 
