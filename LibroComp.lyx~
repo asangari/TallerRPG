@@ -87,12 +87,35 @@ key "coxeter1994retorno,coxeter1996geometry"
 \end_inset
 
 , o el de Fundamentos de Geoemtría del mismo autor 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "coxeter1971fundamentos"
+
+\end_inset
+
+.
+ Para la fundamentación de las construcciones geométricas nos servirá 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "de2006teoría"
+
+\end_inset
+
+.
+ Para los poliedros pueden ser 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "books2010uniform,group2010uniform"
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "Colaboro/CEguez/TallerRPG/libroCom"
+bibfiles "libroCom"
 options "apalike"
 
 \end_inset

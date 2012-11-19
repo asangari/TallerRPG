@@ -71,45 +71,67 @@ Libros a Comprar
 \end_layout
 
 \begin_layout Standard
-Estos libros son clásicos de Hilbert sería bueno que lo tengamos 
 \begin_inset CommandInset citation
 LatexCommand cite
-key "hilbert1999geometry,david2006foundations"
+key "hilbert1999geometry"
 
 \end_inset
 
- es para los fundamentos de la geometría.
- Los de Geometría elemental de Coxeter 
+$38.37
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand cite
-key "coxeter1994retorno,coxeter1996geometry"
+key "david2006foundations"
 
 \end_inset
 
-, o el de Fundamentos de Geoemtría del mismo autor 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "coxeter1971fundamentos"
+$64.98
+\end_layout
 
-\end_inset
-
-.
- Para la fundamentación de las construcciones geométricas nos servirá 
+\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand cite
 key "de2006teoría"
 
 \end_inset
 
-.
- Para los poliedros pueden ser 
+$22.78
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset citation
 LatexCommand cite
-key "books2010uniform,group2010uniform"
+key "cromwell1999polyhedra"
 
 \end_inset
 
- 
+$57.92
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "bu2011model"
+
+\end_inset
+
+$49.00 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "feferman2003number"
+
+\end_inset
+
+$52.65
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
