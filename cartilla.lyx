@@ -202,7 +202,7 @@ Vaya al inicio de la construcción e interprete los pasos en la Vista Algebraica
 \begin_layout Enumerate
 Busque la herramienta Tangentes (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/perpendicular.png
+	filename perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -215,7 +215,7 @@ Busque la herramienta Tangentes (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/tangente.png
+	filename tangente.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -686,7 +686,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/ceva.png
+	filename ceva.png
 	lyxscale 30
 
 \end_inset
@@ -1101,7 +1101,7 @@ Dibuje un triángulo
 
  (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/poligono.png
+	filename poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1114,7 +1114,7 @@ Dibuje un triángulo
 \begin_layout Enumerate
 Determine los puntos medios de los lados (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/punto.png
+	filename punto.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1127,7 +1127,7 @@ Determine los puntos medios de los lados (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/pto-medio.png
+	filename pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1172,7 +1172,7 @@ Marque el ortocentro (Ortocentro, herramienta creada)
 \begin_layout Enumerate
 Determine los pies de las alturas (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/perpendicular.png
+	filename perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1185,7 +1185,7 @@ Determine los pies de las alturas (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/interseccion.png
+	filename interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1219,7 +1219,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Determine los puntos medios entre los vértices y el ortocentro (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/pto-medio.png
+	filename pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1232,7 +1232,7 @@ Determine los puntos medios entre los vértices y el ortocentro (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/interseccion.png
+	filename interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1265,7 +1265,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Trace la circunferencia de los 9 puntos (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/circunferencia.png
+	filename circunferencia.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1278,7 +1278,7 @@ Trace la circunferencia de los 9 puntos (
 
 
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/tres-puntos.png
+	filename tres-puntos.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1295,7 +1295,7 @@ Compruebe que existe para cualquier
 
  (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/arrastra.png
+	filename arrastra.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1582,7 +1582,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/FormulaEuler.png
+	filename FormulaEuler.png
 	lyxscale 30
 	scale 65
 
@@ -1616,7 +1616,11 @@ name "Potencia -2rR"
 \end_inset
 
 Mostrar que la potencia del centro de la circunferencia inscrita con respecto
- a la circunferencia circunscrita es 
+ a la circunferencia circunscrita de un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ es 
 \begin_inset Formula $-2rR$
 \end_inset
 
@@ -1748,7 +1752,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/TrasladaCircunf.png
+	filename TrasladaCircunf.png
 	lyxscale 20
 	scale 35
 
@@ -1820,7 +1824,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/TrasladaSegmento.png
+	filename TrasladaSegmento.png
 	lyxscale 40
 	scale 80
 
@@ -1882,7 +1886,7 @@ Construya
 
  equilátero (
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/poligono.png
+	filename poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2550,7 +2554,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/Paralelogramo Homotecia.png
+	filename Paralelogramo Homotecia.png
 	lyxscale 10
 	scale 40
 
@@ -2685,7 +2689,7 @@ Dada una circunferencia
 Abra un archivo ggb.
  Trace una circunferencia y aplique la herramienta Inversión (
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/simetria.png
+	filename simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2698,7 +2702,7 @@ Abra un archivo ggb.
 
  
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/inversion.png
+	filename inversion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2977,7 +2981,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /media/CRISTINA/GeoGebra unsa/FermatFigura.png
+	filename FermatFigura.png
 	lyxscale 30
 	scale 90
 
@@ -3326,7 +3330,7 @@ Suponga que el vértice
  de un ángulo inscrito no está sobre la circunferencia, como muestra la
  figura 
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/vertice ang ins.png
+	filename vertice ang ins.png
 	lyxscale 15
 	scale 20
 
@@ -3580,7 +3584,7 @@ name "enu:Problema-:sug raton"
 
  (
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/desliza.png
+	filename desliza.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3657,7 +3661,7 @@ name "enu:Problema-:suger familia"
 
  (
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/simetria.png
+	filename simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3670,7 +3674,7 @@ name "enu:Problema-:suger familia"
 
 
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/rotacion.png
+	filename rotacion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3757,7 +3761,7 @@ Las distintas herramientas para construcciones geométricas se encuentran
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/caja de herram.png
+	filename caja de herram.png
 	scale 50
 	groupId iconos
 
@@ -3953,7 +3957,7 @@ Cómo insertar una imagen
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/texto.png
+	filename texto.png
 	scale 50
 	groupId iconos
 
@@ -3965,7 +3969,7 @@ Cómo insertar una imagen
 
 
 \begin_inset Graphics
-	filename /home/cristina/GeoGebra unsa/imagen.png
+	filename imagen.png
 	scale 50
 	groupId iconos
 

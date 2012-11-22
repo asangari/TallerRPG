@@ -1,0 +1,597 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsart
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Función Cuadrática
+\end_layout
+
+\begin_layout Definition
+Una función real 
+\begin_inset Formula $f$
+\end_inset
+
+ se dice lineal si y solo si es de la forma
+\begin_inset Formula 
+\[
+\begin{array}{cccc}
+f: & \mathbb{R} & \rightarrow & \mathbb{R}\\
+ & x & \mapsto & ax^{2}+bx+c
+\end{array}
+\]
+
+\end_inset
+
+con 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+ y 
+\begin_inset Formula $c$
+\end_inset
+
+ valores reales con 
+\begin_inset Formula $a\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Abra el GeoGebra y cree una hoja llamada funcion_cuadratica.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree tres deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+ y 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Elija la opción Número
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $f\left(x\right)=ax^{2}+bx+c$
+\end_inset
+
+ (Enter)
+\end_layout
+
+\begin_layout Enumerate
+Con el puntero modifique el valor de los deslizadores.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Representación gráfica de una función cuadráticas: Ecuaciones de una parábola.
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada ecuacion_parabola.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree cuatro deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+, 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $h$
+\end_inset
+
+, 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+.
+ Elija la opción Número
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $a_{1}:y=ax^{2}+bx+c$
+\end_inset
+
+ (Enter).
+ Pinte la curva de azul
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $a_{2}:y=a\left(x-h\right)^{2}+k$
+\end_inset
+
+ (Enter).
+ Pinte la curva de verde
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $a_{3}:y=a\left(x-x_{1}\right)\left(x-x_{2}\right)$
+\end_inset
+
+ (Enter).
+ Pinte la curva de rojo
+\end_layout
+
+\begin_layout Enumerate
+Fije los deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+, 
+\begin_inset Formula $h$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+, 
+\begin_inset Formula $k$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ Trate de modificar los otros deslizadores hasta que las tres curvas se
+ superpongan.
+ Extraiga conclusiones.
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+El lugar geométrico de los puntos 
+\begin_inset Formula $X$
+\end_inset
+
+ que equidistan de una recta 
+\begin_inset Formula $d$
+\end_inset
+
+ y de un punto 
+\begin_inset Formula $F$
+\end_inset
+
+ exterior a 
+\begin_inset Formula $d$
+\end_inset
+
+, se llama parábola.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama foco de la parábola, 
+\begin_inset Formula $d$
+\end_inset
+
+ directriz.
+ La perpendicular 
+\begin_inset Formula $e$
+\end_inset
+
+ a 
+\begin_inset Formula $d$
+\end_inset
+
+ por 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama eje de la parábola.
+ el punto de intersección de la parábola con 
+\begin_inset Formula $e$
+\end_inset
+
+ se llama vértice.
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada foco_directriz.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree dos deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $l$
+\end_inset
+
+.
+ Elija la opción Número.
+\end_layout
+
+\begin_layout Enumerate
+Sea una recta 
+\begin_inset Formula $r$
+\end_inset
+
+ con un punto 
+\begin_inset Formula $M$
+\end_inset
+
+ en 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ Cree una herramienta que construya un cuadrado de lado 
+\begin_inset Formula $l$
+\end_inset
+
+ que tenga un lado sobre 
+\begin_inset Formula $r$
+\end_inset
+
+ y 
+\begin_inset Formula $M$
+\end_inset
+
+ el punto medio de ese lado.
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $a_{1}:y=ax^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use la herramienta para construir un cuadrado de lado 
+\begin_inset Formula $l=2$
+\end_inset
+
+ con uno de sus lados en el eje 
+\begin_inset Formula $y$
+\end_inset
+
+ y que el punto medio de uno de sus lados sea el origen de coordenadas.
+\end_layout
+
+\begin_layout Enumerate
+Mueva 
+\begin_inset Formula $a$
+\end_inset
+
+ hasta que la parábola pase por algún vértice del cuadrado dibujado.
+\end_layout
+
+\begin_layout Enumerate
+Realice una conjetura con la relación entre los parámetros 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $l$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Renombre los vértices del cuadrado 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+ y 
+\begin_inset Formula $D$
+\end_inset
+
+; en ese orden con 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $D$
+\end_inset
+
+ sobre el eje 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Ponga un punto 
+\begin_inset Formula $X$
+\end_inset
+
+ cualquiera sobre la parábola y trace una circunferencia de centro 
+\begin_inset Formula $X$
+\end_inset
+
+ que pase por 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Trace la recta 
+\begin_inset Formula $CD$
+\end_inset
+
+.
+ Realice conjeturas.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Trayectoria Parabólica
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada punto_parabola.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree tres deslizadores 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ Elija la opción ángulo para 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y número para los otros dos.
+\end_layout
+
+\begin_layout Enumerate
+Elija el valor mínimo para 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $0$
+\end_inset
+
+ y el máximo 20.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Elija el valor mínimo para 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $0\text{°}$
+\end_inset
+
+ y el máximo 90°.
+\end_layout
+
+\begin_layout Enumerate
+Elija el valor mínimo para 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $0$
+\end_inset
+
+ y el máximo 3.
+ Fije un incremento de 
+\begin_inset Formula $0.01$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $X=\left(V_{0}\cos\left(\alpha\right)t,V_{0}\sin\left(\alpha\right)t-5t^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Fije los deslizadores 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ en 
+\begin_inset Formula $10$
+\end_inset
+
+ y 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ en 
+\begin_inset Formula $30\text{° }$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Active la vista de ejes.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Desplace 
+\begin_inset Formula $t$
+\end_inset
+
+ desde 
+\begin_inset Formula $0$
+\end_inset
+
+ hasta que vuelva a tocar el eje de las 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ Anote ese valor de 
+\begin_inset Formula $t$
+\end_inset
+
+ como 
+\begin_inset Formula $t_{v}$
+\end_inset
+
+.
+ Cambie el valor máximo que tiene el deslizador 
+\begin_inset Formula $t$
+\end_inset
+
+ a 
+\begin_inset Formula $t_{v}$
+\end_inset
+
+ y active animación.
+\end_layout
+
+\begin_layout Enumerate
+Modifique la escala de los ejes para tener mejor apreciación de la máxima
+ altura que alcanza este punto.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Modifique el valor del ángulo para que alcance un valor máximo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga valores de los parámetros para que el móvil alcance una altura máxima
+ de 3 y un alcance de 5.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

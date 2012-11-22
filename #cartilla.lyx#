@@ -2550,7 +2550,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Paralelogramo Homotecia.png
+	filename /media/CRISTINA/GeoGebra unsa/carpeta sin título/Paralelogramo Homotecia.png
 	lyxscale 10
 	scale 40
 
@@ -2685,7 +2685,7 @@ Dada una circunferencia
 Abra un archivo ggb.
  Trace una circunferencia y aplique la herramienta Inversión (
 \begin_inset Graphics
-	filename simetria.png
+	filename /media/CRISTINA/GeoGebra unsa/simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2698,7 +2698,7 @@ Abra un archivo ggb.
 
  
 \begin_inset Graphics
-	filename inversion.png
+	filename /media/CRISTINA/GeoGebra unsa/inversion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2977,7 +2977,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FermatFigura.png
+	filename /media/CRISTINA/GeoGebra unsa/FermatFigura.png
 	lyxscale 30
 	scale 90
 
@@ -3326,7 +3326,7 @@ Suponga que el vértice
  de un ángulo inscrito no está sobre la circunferencia, como muestra la
  figura 
 \begin_inset Graphics
-	filename vertice ang ins.png
+	filename /home/cristina/GeoGebra unsa/vertice ang ins.png
 	lyxscale 15
 	scale 20
 
@@ -3580,7 +3580,7 @@ name "enu:Problema-:sug raton"
 
  (
 \begin_inset Graphics
-	filename desliza.png
+	filename /home/cristina/GeoGebra unsa/desliza.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3657,7 +3657,7 @@ name "enu:Problema-:suger familia"
 
  (
 \begin_inset Graphics
-	filename simetria.png
+	filename /home/cristina/GeoGebra unsa/simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3670,7 +3670,7 @@ name "enu:Problema-:suger familia"
 
 
 \begin_inset Graphics
-	filename rotacion.png
+	filename /home/cristina/GeoGebra unsa/rotacion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3757,7 +3757,7 @@ Las distintas herramientas para construcciones geométricas se encuentran
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename caja de herram.png
+	filename /home/cristina/GeoGebra unsa/caja de herram.png
 	scale 50
 	groupId iconos
 
@@ -3953,7 +3953,7 @@ Cómo insertar una imagen
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename texto.png
+	filename /home/cristina/GeoGebra unsa/texto.png
 	scale 50
 	groupId iconos
 
@@ -3965,7 +3965,7 @@ Cómo insertar una imagen
 
 
 \begin_inset Graphics
-	filename imagen.png
+	filename /home/cristina/GeoGebra unsa/imagen.png
 	scale 50
 	groupId iconos
 
