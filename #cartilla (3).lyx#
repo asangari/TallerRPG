@@ -1,0 +1,5013 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsart
+\begin_preamble
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+\end_preamble
+\use_default_options false
+\begin_removed_modules
+theorems-ams
+\end_removed_modules
+\begin_modules
+eqs-within-sections
+figs-within-sections
+enumitem
+theorems-bytype
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Resolución de Problemas con Geogebra
+\end_layout
+
+\begin_layout Author
+Antonio Sángari - Cristina Egüez
+\end_layout
+
+\begin_layout Date
+Noviembre de 2012
+\end_layout
+
+\begin_layout Standard
+\align center
+asangari2000@gmail.com 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+criseguez@gmail.com
+\end_layout
+
+\begin_layout Abstract
+Esta cartilla consiste en una serie de ejercicios, de problemas y de breves
+ notas teóricas que abordan situaciones de geometría elemental.
+ En general, la secuencia de los ejercicios es una concatenación de demostracion
+es geométricas de propiedades conocidas.
+ Los problemas abordan distintos temas de búsqueda de lugares geométricos
+ y de posiciones y medidas óptimas.
+ El énfasis en este trabajo, como así el motivo de este curso es la 
+\series bold
+Geometría, 
+\series default
+que hace uso de un recurso principalmente educativo, como es el GeoGebra.
+ Las sugerencias que se brindan al final, son sólo eso, el participante
+ puede plantear las resoluciones sin atender dichas sugerencias.
+\end_layout
+
+\begin_layout Section
+Ángulo Inscrito
+\end_layout
+
+\begin_layout Definition
+Un ángulo se dice inscrito en una circunferencia si tiene vértice sobre
+ la circunferencia y subtiende un arco cuyos extremos están sobre los lados
+ del ángulo.
+\end_layout
+
+\begin_deeper
+\begin_layout Definition
+Un ángulo central es el que tiene vértice en el centro de una circunferencia.
+\end_layout
+
+\end_deeper
+\begin_layout Exercise
+Realice las siguientes instrucciones:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Abra el archivo 1-explorar-Ang-Ins.ggb.
+\end_layout
+
+\begin_layout Enumerate
+el punto 
+\begin_inset Formula $E$
+\end_inset
+
+ y el punto 
+\begin_inset Formula $F$
+\end_inset
+
+ y observe los efectos en la figura.
+\end_layout
+
+\begin_layout Enumerate
+Ídem al anterior, arrastrando el punto 
+\begin_inset Formula $C$
+\end_inset
+
+ y el punto 
+\begin_inset Formula $D$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Formule conjeturas en cada caso.
+\end_layout
+
+\begin_layout Enumerate
+Ejecute Vista
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Vista Algebraica.
+ Luego haga clic en el redondel de texto 1.
+ Este texto, ¿confirma su conjetura?
+\end_layout
+
+\begin_layout Enumerate
+Ejecute Vista
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Barra de Navegación por Pasos de Construcción 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Muestra.
+\end_layout
+
+\begin_layout Enumerate
+Vaya al inicio de la construcción e interprete los pasos en la Vista Algebraica
+ y en la Gráfica.
+ Preste atención a los elementos que aparecen en la Vista Algebraica pero
+ que están ocultos para la Vista Gráfica.
+\end_layout
+
+\begin_layout Enumerate
+Busque la herramienta Tangentes (
+\begin_inset Graphics
+	filename perpendicular.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename tangente.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+) y aplíquela sobre los puntos 
+\begin_inset Formula $C$
+\end_inset
+
+ y 
+\begin_inset Formula $D$
+\end_inset
+
+ de la circunferencia.
+\end_layout
+
+\begin_layout Enumerate
+Dibuje dos puntos 
+\begin_inset Formula $H$
+\end_inset
+
+ e 
+\begin_inset Formula $I$
+\end_inset
+
+ sobre la tangente por 
+\begin_inset Formula $C$
+\end_inset
+
+, de un lado y otro de 
+\begin_inset Formula $C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Mida los ángulos 
+\begin_inset Formula $DCH$
+\end_inset
+
+ y 
+\begin_inset Formula $DCI$
+\end_inset
+
+ (menores que 
+\begin_inset Formula $180\text{°}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga conclusiones.
+\end_layout
+
+\end_deeper
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:Ang-Insc"
+
+\end_inset
+
+Sea una circunferencia 
+\begin_inset Formula $\mathcal{C}$
+\end_inset
+
+ de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y una cuerda 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ Todo ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ inscrito en 
+\begin_inset Formula $\mathcal{C}$
+\end_inset
+
+ que subtiende a 
+\begin_inset Formula $AB$
+\end_inset
+
+ del mismo lado de 
+\begin_inset Formula $O$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $AB$
+\end_inset
+
+ es igual a la mitad del ángulo central que subtiende a 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Abra el archivo 2-prueba-Ang-Ins.ggb visualice la prueba del Teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Ang-Insc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Justifique que 
+\shape italic
+un ángulo inscrito en una semicircunferencia es un ángulo recto
+\shape default
+.
+ Realice un dibujo que represente la demostración.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "punto medio hipote-centro circ"
+
+\end_inset
+
+Muestre que 
+\shape italic
+el centro de la circunferencia circunscrita de los triángulos rectángulos
+ está en el punto medio de la hipotenusa
+\shape default
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Ejer-:sug punto medio hip-centro circunf"
+
+\end_inset
+
+).
+ Construya una figura dinámica correspondiente a la prueba.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "rectángulo-circunferencia"
+
+\end_inset
+
+ Muestre que 
+\shape italic
+un triángulo es rectángulo si y sólo si uno de sus lados diámetro de la
+ circunferencia que pasa por sus vértices
+\shape default
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:Ang-Ins-Suplem"
+
+\end_inset
+
+Sea una circunferencia 
+\begin_inset Formula $\mathcal{C}$
+\end_inset
+
+ de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y una cuerda 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ Si el ángulo inscrito 
+\begin_inset Formula $\beta$
+\end_inset
+
+ subtiende a 
+\begin_inset Formula $AB$
+\end_inset
+
+ desde el otro lado de 
+\begin_inset Formula $O$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $AB$
+\end_inset
+
+, 
+\begin_inset Formula $\beta=\pi-\alpha$
+\end_inset
+
+, donde 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ es la mitad del ángulo central.
+\end_layout
+
+\begin_layout Exercise
+Demuestre el Teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Ang-Ins-Suplem"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "InsCongruentes"
+
+\end_inset
+
+A partir de los teoremas 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Ang-Insc"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Ang-Ins-Suplem"
+
+\end_inset
+
+, justifique que 
+\shape italic
+los ángulos inscritos en el mismo arco son congruentes
+\shape default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Justifique que 
+\shape italic
+las rectas paralelas determinan arcos congruentes sobre un círculo
+\shape default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Demuestre que 
+\shape italic
+si un cuadrilátero está inscrito en una circunferencia sus ángulos opuestos
+ son suplementarios
+\shape default
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "EjercRec Ang Ins"
+
+\end_inset
+
+Abra el archivo 3-recip-Ang-Ins.ggb.
+ Active el rastro del punto 
+\begin_inset Formula $D$
+\end_inset
+
+ y arrastre el punto 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Realice conjeturas e intente probarlas.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:sug RecAngIns"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "cuadrilatero inscribible"
+
+\end_inset
+
+Justifique que 
+\shape italic
+si los ángulos opuestos de un cuadrilátero son suplementarios, entonces
+ dicho cuadrilátero es inscriptible en una circunferencia
+\shape default
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Definition
+Un ángulo se dice seminscrito en una circunferencia8 si tiene su vértice
+ en ella, uno de sus lados tangente y el otro secante a la misma.
+\end_layout
+
+\begin_layout Exercise
+Pruebe que 
+\shape italic
+todo ángulo seminscrito es igual a la mitad del ángulo central que contiene
+ al mismo arco
+\shape default
+.
+ 
+\end_layout
+
+\begin_layout Section
+Puntos y Rectas interesantes
+\end_layout
+
+\begin_layout Theorem
+(Teorema de los senos generalizado) Para un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ con radio de la circunferencia circunscrita 
+\begin_inset Formula $R$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a}{senA}=\frac{b}{senB}=\frac{c}{senC}=2R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+Use las propiedades demostradas en los ejercicios 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "rectángulo-circunferencia"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "InsCongruentes"
+
+\end_inset
+
+ para demostrar el teorema de los senos generalizado.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Probar que las bisectrices interiores de un triángulo dividen el lado opuesto
+ en dos segmentos de longitud proporcional a la longitud de sus lados adyacentes.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+El segmento que une el vértice de un triángulo con cualquier punto del lado
+ opuesto, o su prolongación, se llama ceviana
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$X$,$Y$,$Z$"
+description "Pie de las cevianas "
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Theorem
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:Si-tres-cevianas"
+
+\end_inset
+
+Si tres cevianas 
+\begin_inset Formula $AX$
+\end_inset
+
+, 
+\begin_inset Formula $BY$
+\end_inset
+
+, 
+\begin_inset Formula $CZ$
+\end_inset
+
+, cada una de ellas partiendo de un vértice de un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+, son concurrentes, entonces: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{BX}{XC}\times\frac{CY}{YA}\times\frac{AZ}{ZB}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "Ejerc proporcion ceva"
+
+\end_inset
+
+Use la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ceva"
+
+\end_inset
+
+ para mostrar que: 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ceva.png
+	lyxscale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ceva"
+
+\end_inset
+
+Teorema de Ceva
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{BX}{XC}=\frac{\left(ABP\right)}{\left(CAP\right)}
+\]
+
+\end_inset
+
+ donde 
+\begin_inset Formula $P$
+\end_inset
+
+ es el punto de intersección de las cevianas.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Ejercicio-:sug ceva"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Exercise
+Enuncie el recíproco del teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Si-tres-cevianas"
+
+\end_inset
+
+ y esboce una demostración de ambos.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Use el recíproco del teorema de Ceva y muestre que las alturas (de un triángulo
+ acutángulo), las medianas y las bisectrices se cortan en un punto.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Para cada punto: el incentro 
+\begin_inset Formula $I$
+\end_inset
+
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$I$"
+description "Incentro (intersección de las bisectrices interiores del triángulo)"
+
+\end_inset
+
+, el circuncentro 
+\begin_inset Formula $O$
+\end_inset
+
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$O$"
+description "Ortocentro  (intersección de las mediatrices del triángulo)"
+
+\end_inset
+
+, el baricentro 
+\begin_inset Formula $G$
+\end_inset
+
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$G$"
+description "Baricentro  (intersección de las medianas del triángulo)"
+
+\end_inset
+
+ y el ortocentro 
+\begin_inset Formula $H$
+\end_inset
+
+ 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$H$"
+description "Ortocentro (intersección de las alturas del triángulo) "
+
+\end_inset
+
+:
+\begin_inset CommandInset label
+LatexCommand label
+name "volver1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Realice la construcción de los mismos y la grabe en un archivo ggb.
+\end_layout
+
+\begin_layout Enumerate
+Guarde la figura como imagen, en un archivo png, con el mismo nombre que
+ el punto en cuestión.
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:salvar imagen"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Cree las herramientas (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Creación-de-una"
+
+\end_inset
+
+) para cada construcción.
+\end_layout
+
+\begin_layout Enumerate
+Configure la vista de la pantalla a fin de poder acceder a las herramientas
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Acceso-a-herramientas"
+
+\end_inset
+
+) creadas y ser utilizada en otras construcciones.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+El punto de Fermat (o de Torricelli) es la intersección de las rectas que
+ van desde el vértice libre de los triángulos equiláteros construidos sobre
+ los lados de un triángulo dado al vértice opuesto de este último triángulo.
+\end_layout
+
+\begin_layout Exercise
+Construya una herramienta para el punto de Fermat y anéxela a la barra de
+ herramientas para que quede disponible.
+\end_layout
+
+\begin_layout Definition
+El triángulo que tiene como vértices a los pies de las alturas
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$D$,$E$,$F$"
+description "Pies de las alturas de un triángulo"
+
+\end_inset
+
+ de un triángulo, se llama triángulo órtico.
+\end_layout
+
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "Ortocentro-Incentro Ortico"
+
+\end_inset
+
+Mostrar que el ortocentro de un triángulo acutángulo es el incentro de su
+ triángulo órtico.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Demostrar que las medianas de un triángulo lo dividen en seis triángulos
+ de igual área.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Probar que las medianas de un triángulo se dividen una a la otra en razón
+ de 
+\begin_inset Formula $2:1$
+\end_inset
+
+; es decir que se triseccionan una a las otras.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Definition
+El triángulo que tiene como vértices a los puntos medios de los lados de
+ un triángulo
+\shape italic
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$A^{'}$,$B^{'}$,$C^{'}$"
+description "Puntos medios de los lados de un triángulo"
+
+\end_inset
+
+ 
+\shape default
+, se llama triángulo medial.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Para un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ realice lo siguiente:
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Dibuje el triángulo 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Justifique que 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+ divide a 
+\begin_inset Formula $ABC$
+\end_inset
+
+ en cuatro triángulos congruentes y que 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+ son semejantes.
+\end_layout
+
+\begin_layout Enumerate
+Marque el baricentro 
+\begin_inset Formula $G$
+\end_inset
+
+ de 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+, ¿qué relación tiene este punto con 
+\begin_inset Formula $ABC$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Encuentre una relación entre el circuncentro 
+\begin_inset Formula $O$
+\end_inset
+
+ de 
+\begin_inset Formula $ABC$
+\end_inset
+
+ con el ortocentro de 
+\begin_inset Formula $A'B'C'$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Trace los segmentos 
+\begin_inset Formula $OA'$
+\end_inset
+
+, 
+\begin_inset Formula $AH$
+\end_inset
+
+, 
+\begin_inset Formula $HG$
+\end_inset
+
+ y 
+\begin_inset Formula $OG$
+\end_inset
+
+ .
+ Use la herramienta Inserte Texto y escriba 
+\begin_inset Formula $OA$
+\end_inset
+
+=objeto segmento 
+\begin_inset Formula $OA$
+\end_inset
+
+ (ver nombre en Vista Algebraica), ídem para los otros tres.
+ Desplace los distintos vértices de 
+\begin_inset Formula $ABC$
+\end_inset
+
+.
+ Observe la figura, los valores, enuncie conjeturas.
+ Demuestre las conclusiones.
+\end_layout
+
+\begin_layout Theorem
+El ortocentro, el baricentro y el circuncentro de cualquier triángulo están
+ alineados.
+ El baricentro divide al circuncentro en la razón 2:1.
+\end_layout
+
+\begin_layout Definition
+La recta en la que están situados estos tres puntos se denomina 
+\shape italic
+recta de Euler
+\shape default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Theorem
+En cualquier triángulo, se puede construir una circunferencia que pasa por
+ los puntos medios de los lados, los pies de las alturas y los puntos medios
+ de los segmentos que unen el ortocentro con cada uno de los vértices
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$K$,$L$,$M$"
+description "Puntos medios de los segmentos que van del ortocentro al vértice"
+
+\end_inset
+
+, dicha circunferencia se llama 
+\shape italic
+circunferencia de los nueve puntos.
+\begin_inset CommandInset label
+LatexCommand label
+name "thm:Teorema circ 9 puntos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "ej:9ptos"
+
+\end_inset
+
+Realice los siguientes pasos para construir la circunferencia de los 9 puntos.
+\end_layout
+
+\begin_layout Enumerate
+Dibuje un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ (
+\begin_inset Graphics
+	filename poligono.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Determine los puntos medios de los lados (
+\begin_inset Graphics
+	filename punto.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename pto-medio.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Renombre los puntos medios como 
+\begin_inset Formula $A',B',C'$
+\end_inset
+
+ (clic derecho sobre el punto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Renombra)
+\end_layout
+
+\begin_layout Enumerate
+Ponga color verde a los puntos 
+\begin_inset Formula $A',B',C'$
+\end_inset
+
+ (clic derecho sobre el punto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Propiedades de Objeto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Color)
+\end_layout
+
+\begin_layout Enumerate
+Marque el ortocentro (Ortocentro, herramienta creada)
+\end_layout
+
+\begin_layout Enumerate
+Determine los pies de las alturas (
+\begin_inset Graphics
+	filename perpendicular.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename interseccion.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Ponga color rojo a los pies de las alturas.
+ (clic derecho sobre el punto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Propiedades de Objeto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Color)
+\end_layout
+
+\begin_layout Enumerate
+Oculte la última recta (clic derecho sobre la recta
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Muestra Objeto)
+\end_layout
+
+\begin_layout Enumerate
+Determine los puntos medios entre los vértices y el ortocentro (
+\begin_inset Graphics
+	filename pto-medio.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename interseccion.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Cambie el color de estos puntos medios (clic derecho sobre el punto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Propiedades de Objeto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Color)
+\end_layout
+
+\begin_layout Enumerate
+Oculte el ortocentro (clic derecho sobre el punto
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Muestra Objeto)
+\end_layout
+
+\begin_layout Enumerate
+Trace la circunferencia de los 9 puntos (
+\begin_inset Graphics
+	filename circunferencia.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename tres-puntos.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Compruebe que existe para cualquier 
+\begin_inset Formula $ABC$
+\end_inset
+
+ (
+\begin_inset Graphics
+	filename arrastra.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+ sobre los vértices)
+\end_layout
+
+\begin_layout Enumerate
+Repase la construcción realizada (Vista
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Protocolo de Construcción)
+\end_layout
+
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "Demuestre circ 9 puntos"
+
+\end_inset
+
+Demuestre el teorema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "thm:Teorema circ 9 puntos"
+
+\end_inset
+
+.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Ejercicio-:sug 9 puntos"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Demuestre que 
+\shape italic
+el centro de la circunferencia de los 9 puntos
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$N$"
+description "Centro de la circunferencia de los nueve puntos"
+
+\end_inset
+
+ es el punto medio del segmento que une el circuncentro con el ortocentro
+ del triángulo
+\shape default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "EjercPotencia Punto"
+
+\end_inset
+
+Desde un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ interior a una circunferencia, trace dos rectas que corten a la circunferencia
+ en los puntos 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $A'$
+\end_inset
+
+ (pueden ser coincidentes) y 
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $B'$
+\end_inset
+
+ (pueden ser coincidentes), respectivamente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Marque los segmentos 
+\begin_inset Formula $PA$
+\end_inset
+
+, 
+\begin_inset Formula $PA'$
+\end_inset
+
+, 
+\begin_inset Formula $PB$
+\end_inset
+
+, 
+\begin_inset Formula $PB'$
+\end_inset
+
+, cree un comando (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Crear-un-comando"
+
+\end_inset
+
+) para que realice las operaciones 
+\begin_inset Formula $AP\times PA'$
+\end_inset
+
+ y 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $BP\times PB'$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish
+ formule conjeturas.
+ Justifique.
+\end_layout
+
+\begin_layout Enumerate
+Compruebe que también se cumple si 
+\begin_inset Formula $P$
+\end_inset
+
+ es exterior a la circunferencia.
+ Justifique.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:PotenciaPunto"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+¿Qué pasa si 
+\begin_inset Formula $P$
+\end_inset
+
+ está sobre la circunferencia?
+\end_layout
+
+\begin_layout Exercise
+Para los puntos del ejercicio 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "EjercPotencia Punto"
+
+\end_inset
+
+, suponga ahora que 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $B'$
+\end_inset
+
+ son extremos de un diámetro.
+ Sean 
+\begin_inset Formula $d$
+\end_inset
+
+ la distancia de 
+\begin_inset Formula $P$
+\end_inset
+
+ al centro de la circunferencia y 
+\begin_inset Formula $R$
+\end_inset
+
+ el radio.
+ Muestre que 
+\begin_inset Formula $AP\times PA'=BP\times PB'=R^{2}-d^{2}$
+\end_inset
+
+, si 
+\begin_inset Formula $P$
+\end_inset
+
+ es interior; y 
+\begin_inset Formula $AP\times PA'=BP\times PB'=d^{2}-R^{2}$
+\end_inset
+
+ si 
+\begin_inset Formula $P$
+\end_inset
+
+ es exterior a la circunferencia.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Definition
+Para cualquier circunferencia de radio 
+\begin_inset Formula $R$
+\end_inset
+
+ y cualquier punto 
+\begin_inset Formula $P$
+\end_inset
+
+ que diste 
+\begin_inset Formula $d$
+\end_inset
+
+ del centro, el valor de 
+\begin_inset Formula $d^{2}-R^{2}$
+\end_inset
+
+, se llama potencia de 
+\begin_inset Formula $P$
+\end_inset
+
+ respecto a la circunferencia.
+ 
+\end_layout
+
+\begin_layout Definition
+Así, la potencia puede ser positiva, cero o negativa, según 
+\begin_inset Formula $P$
+\end_inset
+
+ esté fuera, sobre o dentro de la circunferencia.
+\end_layout
+
+\begin_layout Exercise
+¿Cuál es el lugar geométrico de los puntos de potencia constante, mayor
+ que 
+\begin_inset Formula $-R^{2}$
+\end_inset
+
+, respecto a una circunferencia dada?
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename FormulaEuler.png
+	lyxscale 30
+	scale 65
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Expresión-de-Euler"
+
+\end_inset
+
+Expresión de Euler
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Potencia -2rR"
+
+\end_inset
+
+Muestre que la potencia del centro de la circunferencia inscrita con respecto
+ a la circunferencia circunscrita de un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ es 
+\begin_inset Formula $-2rR$
+\end_inset
+
+ (
+\begin_inset Formula $r$
+\end_inset
+
+ radio de la inscrita y 
+\begin_inset Formula $R$
+\end_inset
+
+ de la circunscrita) Considere la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Expresión-de-Euler"
+
+\end_inset
+
+.
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Potencia circuncentro"
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+Sea triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y un punto 
+\begin_inset Formula $P$
+\end_inset
+
+.
+ El triángulo que tiene como vértices los pies de las perpendiculares desde
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ a los lados (o su prolongación) de 
+\begin_inset Formula $ABC$
+\end_inset
+
+, se llama triángulo pedal 
+\begin_inset Formula $P$
+\end_inset
+
+ con respecto a 
+\begin_inset Formula $ABC$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Los pies de las perpendiculares desde un punto a los lados de un triángulo
+ están alineados si y sólo si el punto está situado en la circunferencia
+ circunscrita.
+\end_layout
+
+\begin_layout Definition
+La recta que pasa por los pies de las perpendiculares a los lados del triángulo,
+ trazadas desde un punto de la circunferencia circunscrita, se llama 
+\shape italic
+recta de Simson
+\shape default
+ del punto con respecto al triángulo.
+\end_layout
+
+\begin_layout Section
+Transformaciones en el plano
+\end_layout
+
+\begin_layout Definition
+Se llama traslación de vector 
+\begin_inset Formula $\overrightarrow{v}$
+\end_inset
+
+ a la transformación que a cada punto 
+\begin_inset Formula $P$
+\end_inset
+
+ le hace corresponder como imagen un punto 
+\begin_inset Formula $P'$
+\end_inset
+
+ tal que 
+\begin_inset Formula $PP'=\overrightarrow{v}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Reconstruya la casa.
+ Abra el archivo Casa.ggb.
+ Use las herramientas Vector entre Dos Puntos (
+\begin_inset Graphics
+	filename recta.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vector entre Dos Puntos) y Traslada Objeto por un Vector (
+\begin_inset Graphics
+	filename simetria.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Traslada Objeto por un Vector)
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Determine vectores de una composición de traslaciones aplicada a la circunferenc
+ia con centro en 
+\begin_inset Formula $A$
+\end_inset
+
+, de modo que resulte la siguiente como se muestra en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Composición-de-Traslaciones"
+
+\end_inset
+
+.
+ Abra el archivo TrasladaCircunf.ggb.
+  Compruebe.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename TrasladaCircunf.png
+	lyxscale 20
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Composición-de-Traslaciones"
+
+\end_inset
+
+Composición de traslaciones
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset Quotes eld
+\end_inset
+
+Inscriba
+\begin_inset Quotes erd
+\end_inset
+
+ segmentos iguales y paralelos al segmento 
+\begin_inset Formula $DE$
+\end_inset
+
+ en el triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ de la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Segmento-inscribible"
+
+\end_inset
+
+ Abra el archivo TrasladaSegmento.ggb
+\end_layout
+
+\end_deeper
+\begin_layout Exercise
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename TrasladaSegmento.png
+	lyxscale 40
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Segmento-inscribible"
+
+\end_inset
+
+Segmento inscribible por traslación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Dibuje parte de la figura que puede obtenerse de trasladar un triángulo
+ equilátero 
+\begin_inset Formula $ABC$
+\end_inset
+
+ según todos los vectores que resulten de la suma de un múltiplo entero
+ de 
+\begin_inset Formula $AB$
+\end_inset
+
+ más un múltiplo entero de 
+\begin_inset Formula $AC$
+\end_inset
+
+.
+ Para ello, puede seguir las siguientes instrucciones:
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Construya 
+\begin_inset Formula $ABC$
+\end_inset
+
+ equilátero (
+\begin_inset Graphics
+	filename poligono.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Polígono Regular)
+\end_layout
+
+\begin_layout Enumerate
+Sobre los segmentos 
+\begin_inset Formula $AB$
+\end_inset
+
+ y 
+\begin_inset Formula $AC$
+\end_inset
+
+, aplique la herramienta Vector Entre Dos Puntos (
+\begin_inset Graphics
+	filename recta.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vector Entre Dos Puntos)
+\end_layout
+
+\begin_layout Enumerate
+En la barra de comandos, escriba 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $m*u+n*v$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang spanish
+, donde 
+\begin_inset Formula $u=\overrightarrow{AB}$
+\end_inset
+
+, 
+\begin_inset Formula $v=\overrightarrow{AC}$
+\end_inset
+
+, y 
+\begin_inset Formula $m$
+\end_inset
+
+ y 
+\begin_inset Formula $n$
+\end_inset
+
+ son distintos valores enteros (entre -2 y 2, por ejemplo), para cada traslación.
+\end_layout
+
+\begin_layout Definition
+Se llama rotación de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y ángulo de giro 
+\begin_inset Formula $\theta$
+\end_inset
+
+ a la transformación, que a todo punto 
+\begin_inset Formula $P$
+\end_inset
+
+ le hace corresponder como imagen un punto 
+\begin_inset Formula $P'$
+\end_inset
+
+ tal que 
+\begin_inset Formula $OP=OP'$
+\end_inset
+
+ y 
+\begin_inset Formula $\hat{POP'}=\theta$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Definition
+Convenimos que el ángulo es positivo si el giro es en sentido antihorario,
+ negativo en caso contrario.
+\end_layout
+
+\begin_layout Exercise
+Encuentre el ángulo y el centro de giro del autito.
+ Abra el archivo Auto.ggb
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sea 
+\begin_inset Formula $ABC$
+\end_inset
+
+ un triángulo acutángulo y sea 
+\begin_inset Formula $P$
+\end_inset
+
+ un punto interior, rote el triángulo 
+\begin_inset Formula $APB$
+\end_inset
+
+, alrededor de 
+\begin_inset Formula $B$
+\end_inset
+
+ con un ángulo de 
+\begin_inset Formula $60^{\circ}$
+\end_inset
+
+ de modo que obtenga el triángulo 
+\begin_inset Formula $C'P'B$
+\end_inset
+
+.
+ Justifique que la longitud de la poligonal 
+\begin_inset Formula $C'P'PC$
+\end_inset
+
+ es igual a la suma de los segmentos que unen el punto 
+\begin_inset Formula $P$
+\end_inset
+
+ con cada uno de los vértices.
+ Es decir 
+\begin_inset Formula $C'P'+P'P+PC=AP+BP+CP$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+Una simetría axial de eje 
+\begin_inset Formula $e$
+\end_inset
+
+ es una transformación que hace corresponder a cada punto 
+\begin_inset Formula $P$
+\end_inset
+
+ otro punto 
+\begin_inset Formula $P'$
+\end_inset
+
+ tal que la recta 
+\begin_inset Formula $e$
+\end_inset
+
+ es mediatriz del segmento 
+\begin_inset Formula $PP'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Dedicatory
+Le dedicamos un regalo si la inicial de su nombre y/o apellido tiene simetría
+ de eje horizontal y vertical.
+ 
+\end_layout
+
+\begin_layout Exercise
+Sea el triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+, construya un triángulo arbitrario 
+\begin_inset Formula $UVW$
+\end_inset
+
+, donde 
+\begin_inset Formula $U$
+\end_inset
+
+ está en 
+\begin_inset Formula $BC$
+\end_inset
+
+, 
+\begin_inset Formula $V$
+\end_inset
+
+ en 
+\begin_inset Formula $CA$
+\end_inset
+
+ y 
+\begin_inset Formula $W$
+\end_inset
+
+ en 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ Sean 
+\begin_inset Formula $U'$
+\end_inset
+
+, 
+\begin_inset Formula $U''$
+\end_inset
+
+ las imágenes de 
+\begin_inset Formula $U$
+\end_inset
+
+ por reflexión en 
+\begin_inset Formula $CA$
+\end_inset
+
+ y 
+\begin_inset Formula $CB$
+\end_inset
+
+, respectivamente.
+ Muestre que 
+\begin_inset Formula $UV+VW+WU=U'V+VW+WU'$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Proposition
+\begin_inset CommandInset label
+LatexCommand label
+name "prop:Si-un-paralelogramo"
+
+\end_inset
+
+Si un paralelogramo y un triángulo tienen la misma base, y están comprendidos
+ entre las mismas paralelas, entonces el área del paralelogramo es doble
+ de la del triángulo.
+ Esto es tanto como decir que a igual base y altura, el área del paralelogramo
+ es el doble del área del triángulo.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sea 
+\begin_inset Formula $ABC$
+\end_inset
+
+ un triángulo rectángulo en 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Demuestre el teorema de Pitágoras aplicando los siguientes pasos:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Construya externamente cuadrados, 
+\begin_inset Formula $CFGB$
+\end_inset
+
+, 
+\begin_inset Formula $ADEC$
+\end_inset
+
+ y 
+\begin_inset Formula $BIKA,$
+\end_inset
+
+ sobre los lados 
+\begin_inset Formula $a,$
+\end_inset
+
+
+\begin_inset Formula $b$
+\end_inset
+
+ y 
+\begin_inset Formula $c$
+\end_inset
+
+ respectivamente.
+\end_layout
+
+\begin_layout Enumerate
+Trace el segmento 
+\begin_inset Formula $CJ$
+\end_inset
+
+ que es prolongación de la altura 
+\begin_inset Formula $CM$
+\end_inset
+
+ (del lado 
+\begin_inset Formula $c$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Enumerate
+Rote el triángulo 
+\begin_inset Formula $ACK$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $A$
+\end_inset
+
+ y giro de 
+\begin_inset Formula $90^{\circ}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Use la proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:Si-un-paralelogramo"
+
+\end_inset
+
+, y pruebe que 
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "$(ADEC)$"
+description "Área del polígono ADEC"
+
+\end_inset
+
+
+\begin_inset Formula $\left(ADEC\right)=\left(AHJK\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Rote el triángulo 
+\begin_inset Formula $BCI$
+\end_inset
+
+ con centro en 
+\begin_inset Formula $B$
+\end_inset
+
+ y giro de 
+\begin_inset Formula $90^{\circ}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Use la proposición 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "prop:Si-un-paralelogramo"
+
+\end_inset
+
+ y pruebe que 
+\begin_inset Formula $\left(BCFG\right)=\left(HBIJ\right).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A partir de aquí, es inmediato que la suma de las áreas de los cuadrados
+ construidos sobre los catetos, es igual al área del cuadrado construido
+ sobre la hipotenusa.
+\end_layout
+
+\begin_layout Exercise
+Desde un mismo lado de una recta 
+\begin_inset Formula $r$
+\end_inset
+
+ se encuentran dos puntos 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ Construya el camino más corto que une 
+\begin_inset Formula $A$
+\end_inset
+
+ con 
+\begin_inset Formula $B$
+\end_inset
+
+ tocando en un punto a la recta 
+\begin_inset Formula $r$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+En un medio homogéneo, un rayo de luz que parte desde un punto 
+\begin_inset Formula $A$
+\end_inset
+
+ a 
+\begin_inset Formula $B$
+\end_inset
+
+ pasando por un espejo, lo hace a lo largo de un camino mínimo.
+ Si el rayo incide en el espejo con un ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, halle el ángulo con que se refleja.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Dado un triángulo escaleno 
+\begin_inset Formula $ABC$
+\end_inset
+
+ cuyos lados son capaces de reflejar la luz, ¿en qué pundo del lado 
+\begin_inset Formula $AB$
+\end_inset
+
+ debería estar situada una fuente luminosa de forma que el rayo emitido,
+ después de reflejarse sucesivamente en los otros dos lados, retornara a
+ la fuente? (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:fuente de luz"
+
+\end_inset
+
+) 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Definition
+Se llama homotecia de centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y razón 
+\begin_inset Formula $k$
+\end_inset
+
+ (distinto de cero) a la transformación que hace corresponder a un punto
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ otro 
+\begin_inset Formula $P'$
+\end_inset
+
+, tal que: 
+\begin_inset Formula $OP'=k\star OP$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La homotecia es directa 
+\begin_inset Formula $\left(k>0\right)$
+\end_inset
+
+ o inversa 
+\begin_inset Formula $\left(k<0\right)$
+\end_inset
+
+.
+ Según 
+\begin_inset Formula $A'$
+\end_inset
+
+ esté en la semirrecta 
+\begin_inset Formula $\overrightarrow{OA}$
+\end_inset
+
+ o en la opuesta.
+ Si 
+\begin_inset Formula $k<1$
+\end_inset
+
+ es una contracción y si 
+\begin_inset Formula $k>1$
+\end_inset
+
+ es una dilatación.
+\end_layout
+
+\begin_layout Exercise
+Abra el archivo ImagenHomot.ggb.
+ Desde el punto 
+\begin_inset Formula $A$
+\end_inset
+
+ aplique una homotecia, de razón 
+\begin_inset Formula $4$
+\end_inset
+
+ y 
+\begin_inset Formula $0.4,$
+\end_inset
+
+ a las imágenes 1 y 2 respectivamente.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Abra el archivo HomotAngulos.ggb.
+ Encuentre el centro y la razón de la homotecia aplicada a la imagen 1.
+ Luego aplíquela a la imagen 2.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "Dado-un-sector circular"
+
+\end_inset
+
+Dado un sector circular 
+\begin_inset Formula $AOB$
+\end_inset
+
+, inscriba en él un cuadrado con un lado paralelo a la cuerda 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:CuadradoSectorCirc"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+\begin_inset CommandInset label
+LatexCommand label
+name "-es-un paralelogramo"
+
+\end_inset
+
+
+\begin_inset Formula $ABCD$
+\end_inset
+
+ es un paralelogramo; 
+\begin_inset Formula $E$
+\end_inset
+
+ y 
+\begin_inset Formula $F$
+\end_inset
+
+ puntos tales que 
+\begin_inset Formula $DE=DC$
+\end_inset
+
+ y 
+\begin_inset Formula $BF=BC$
+\end_inset
+
+ como indica la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Homotecia"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Paralelogramo Homotecia.png
+	lyxscale 10
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Homotecia"
+
+\end_inset
+
+Ejercicio 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "-es-un paralelogramo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ Demuestre que existe una homotecia de centro 
+\begin_inset Formula $E$
+\end_inset
+
+ y razón 
+\begin_inset Formula $k$
+\end_inset
+
+ que hace corresponder al punto 
+\begin_inset Formula $C$
+\end_inset
+
+, el punto 
+\begin_inset Formula $F$
+\end_inset
+
+.
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:ParalelogHomotecia"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Si el paralelogramo se deforma manteniendo constante la longitud de sus
+ lados, ¿cree que lo anterior sigue siendo válido?
+\end_layout
+
+\begin_layout Enumerate
+Si fija el punto 
+\begin_inset Formula $E$
+\end_inset
+
+ en el plano, ¿cómo haría para variar la razón de homotecia? Encuentre 
+\begin_inset Formula $k$
+\end_inset
+
+ (
+\shape italic
+Ver
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:ParalelogHomotecia"
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Definition
+Dada una circunferencia 
+\begin_inset Formula $w$
+\end_inset
+
+, con centro 
+\begin_inset Formula $O$
+\end_inset
+
+ y radio 
+\begin_inset Formula $k$
+\end_inset
+
+, se llama inversión a la transformación que hace corresponder a un punto
+ 
+\begin_inset Formula $P$
+\end_inset
+
+ otro 
+\begin_inset Formula $P'$
+\end_inset
+
+, en la semirrecta 
+\begin_inset Formula $\overrightarrow{OP}$
+\end_inset
+
+, tal que: 
+\begin_inset Formula $OP\times OP'=k^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Abra un archivo ggb.
+ Trace una circunferencia y aplique la herramienta Inversión (
+\begin_inset Graphics
+	filename simetria.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename inversion.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+).
+ Observe los casos cuando 
+\begin_inset Formula $P$
+\end_inset
+
+ está dentro, sobre y fuera de la circunferencia.
+ Justifique.
+ ¿Cuáles son los puntos fijos? ¿Es involutiva?
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sin usar la herramienta, construya el inverso de un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ interior a la circunferencia.
+ Para ello, trace la cuerda 
+\begin_inset Formula $TU$
+\end_inset
+
+ que pasa por 
+\begin_inset Formula $P$
+\end_inset
+
+ y es perpendicular a 
+\begin_inset Formula $OP$
+\end_inset
+
+.
+ Use semejanza de triángulos y pruebe que 
+\begin_inset Formula $P'$
+\end_inset
+
+ es la intersección de 
+\begin_inset Formula $OP$
+\end_inset
+
+ con la tangente que pasa por 
+\begin_inset Formula $T.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Sin usar la herramienta, construya el inverso de un punto 
+\begin_inset Formula $P$
+\end_inset
+
+ exterior a la circunferencia.
+ Para ello, trace una circunferencia que tiene como diámetro 
+\begin_inset Formula $OP$
+\end_inset
+
+.
+ Si 
+\begin_inset Formula $T$
+\end_inset
+
+ y 
+\begin_inset Formula $U$
+\end_inset
+
+ son los puntos de intersección con 
+\begin_inset Formula $w$
+\end_inset
+
+, pruebe que 
+\begin_inset Formula $P'$
+\end_inset
+
+ es el punto medio de 
+\begin_inset Formula $TU$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+Justifique que la imagen de:
+\end_layout
+
+\begin_layout Enumerate
+Una recta que pasa por el origen, es la misma recta.
+\end_layout
+
+\begin_layout Enumerate
+Una recta que no pasa por el origen, es una circunferencia que pasa por
+ el origen, y recíprocamente.
+\end_layout
+
+\begin_layout Enumerate
+Una circunferencia que no pasa por el origen, es una circunferencia que
+ no pasa por el origen.
+\end_layout
+
+\begin_layout Exercise
+¿Para qué circunferencia 
+\begin_inset Formula $w$
+\end_inset
+
+ los lados de un triángulo se invierten en tres arcos de circunferencias
+ iguales?
+\end_layout
+
+\begin_deeper
+\begin_layout Exercise
+¿Cómo están relacionados los triángulos 
+\begin_inset Formula $ABC$
+\end_inset
+
+ y su imagen 
+\begin_inset Formula $A'B'C',$
+\end_inset
+
+ si 
+\begin_inset Formula $O$
+\end_inset
+
+ es: a) el centro de la circunferencia circunscrita b) el ortocentro c)
+ el incentro.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Section
+Optimización
+\end_layout
+
+\begin_layout Subsection
+La mejor posición
+\end_layout
+
+\begin_layout Problem
+El ratoncito tiene tres salidas de su ratonera situados en los puntos 
+\begin_inset Formula $A,$
+\end_inset
+
+ 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+ que el gato conoce.
+ ¿Dónde debe sentarse el gato para encontrar la menor distancia posible
+ de la salida más lejana? 
+\begin_inset CommandInset label
+LatexCommand label
+name "ratón"
+
+\end_inset
+
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Problema-:sug raton"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Problem
+En una parte del bosque, limitada por tres ferrocarriles rectos, vive un
+ oso.
+ ¿En qué punto debe hacerse la guarida para encontrarse a mayor distancia
+ del ferrocarril más cercano? 
+\begin_inset CommandInset label
+LatexCommand label
+name "oso"
+
+\end_inset
+
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "suger oso"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Problem
+Una familia quiere trasladarse desde su casa a un punto que está mejor situado
+ con respecto a la escuela de los chicos y los lugares de trabajo de los
+ padres.
+ Actualmente ellos viven en un lugar 
+\begin_inset Formula $F$
+\end_inset
+
+, la escuela está en 
+\begin_inset Formula $A$
+\end_inset
+
+, el trabajo de la madre está en 
+\begin_inset Formula $B$
+\end_inset
+
+ y el trabajo de la madre está en 
+\begin_inset Formula $C$
+\end_inset
+
+, como se muestra en la figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ejercicio Fermat"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Problem
+Ellos quieren minimizar 
+\begin_inset Formula $d=d_{A}+d_{B}+d_{C}$
+\end_inset
+
+ ; donde
+\begin_inset Formula $d_{A}$
+\end_inset
+
+ es la distancia a la escuela, 
+\begin_inset Formula $d_{B}$
+\end_inset
+
+ es la distancia al trabajo de la madre y 
+\begin_inset Formula $d_{C}$
+\end_inset
+
+ es la distancia al trabajo del padre.
+ ¿Qué condición geométrica caracteriza este lugar? 
+\begin_inset CommandInset label
+LatexCommand label
+name "familia"
+
+\end_inset
+
+(
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "enu:Problema-:suger familia"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Problem
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename FermatFigura.png
+	lyxscale 30
+	scale 90
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ejercicio Fermat"
+
+\end_inset
+
+Problema 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "familia"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+La medida óptima
+\end_layout
+
+\begin_layout Problem
+
+\emph on
+Sea 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+un punto del primer cuadrante.
+ Entre todos los triángulos que tienen al punto 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+ en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
+ encuentre el de menor área.
+\end_layout
+
+\begin_deeper
+\begin_layout Problem
+Use la demostración anterior para probar el siguiente teorema.
+\end_layout
+
+\begin_deeper
+\begin_layout Theorem
+
+\emph on
+Sea un ángulo 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+y un punto 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+en el interior de 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+.
+ De todos los triángulos tales que comparten el ángulo 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+y el lado opuesto 
+\emph default
+
+\begin_inset Formula $BC$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+contiene a 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+, el de menor área es el que tiene a 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+como punto medio de 
+\emph default
+
+\begin_inset Formula $BC$
+\end_inset
+
+
+\emph on
+.
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Problem
+Sea
+\emph on
+ 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+
+\begin_inset space \space{}
+\end_inset
+
+un punto del primer octante.
+ Entre todos los tetraedros que tienen al punto 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+ en una de sus caras, y las caras restantes sobre los plano coordenados,
+ encuentre el de menor volumen.
+\end_layout
+
+\begin_layout Theorem
+
+\emph on
+Sea un ángul
+\emph default
+o triedro 
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+ de vértice 
+\begin_inset Formula $O$
+\end_inset
+
+ y un punto 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+ en el interior de 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+
+\emph on
+.
+ De todos los tetraedros tales que comparten el ángulo 
+\emph default
+
+\begin_inset Formula $A$
+\end_inset
+
+,
+\emph on
+ y la cara opuesta 
+\emph default
+a 
+\begin_inset Formula $O$
+\end_inset
+
+
+\emph on
+ contiene a 
+\begin_inset Formula $A'$
+\end_inset
+
+, el de menor volumen es el que tiene a 
+\emph default
+
+\begin_inset Formula $A^{\prime}$
+\end_inset
+
+
+\emph on
+ como baricentro de dicha cara.
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Section
+Funciones Reales
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Función Lineal
+\end_layout
+
+\begin_layout Definition
+Una función real 
+\begin_inset Formula $f$
+\end_inset
+
+ se dice lineal si y solo si es de la forma
+\begin_inset Formula 
+\[
+\begin{array}{cccc}
+f: & \mathbb{R} & \rightarrow & \mathbb{R}\\
+ & x & \mapsto & ax+b
+\end{array}
+\]
+
+\end_inset
+
+donde a los valores reales cualesquiera 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+ se les llama pendiente y ordenada al origen respectivamente, por su significado
+ gráfico.
+\end_layout
+
+\begin_layout Exercise
+Abra el GeoGebra y cree una hoja llamada funcion_lineal.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree dos deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Elija la opción Número
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $f\left(x\right)=ax+b$
+\end_inset
+
+ (Enter)
+\end_layout
+
+\begin_layout Enumerate
+Con el puntero modifique el valor de los deslizadores.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Pruebe el efecto de las teclas de flechas sobre los deslizadores.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Explore las combinaciones 
+\begin_inset Formula $Ctrl+Flecha$
+\end_inset
+
+, 
+\begin_inset Formula $Alt+Flecha$
+\end_inset
+
+, 
+\begin_inset Formula $May+Flecha$
+\end_inset
+
+, sobre los deslizadores.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Representación gráfica de una función lineal: Ecuaciones de una recta.
+\end_layout
+
+\begin_layout Exercise
+Abra el GeoGebra y cree una hoja llamada ecuacion_recta.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree cuatro deslizadores 
+\begin_inset Formula $A_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $A_{y}$
+\end_inset
+
+, 
+\begin_inset Formula $B_{x}$
+\end_inset
+
+, 
+\begin_inset Formula $B_{y}$
+\end_inset
+
+.
+ Elija la opción Número
+\end_layout
+
+\begin_layout Enumerate
+Fije los deslizadores 
+\begin_inset Formula $A_{x}$
+\end_inset
+
+ en 
+\begin_inset Formula $4$
+\end_inset
+
+, 
+\begin_inset Formula $A_{y}$
+\end_inset
+
+ en 
+\begin_inset Formula $5$
+\end_inset
+
+, 
+\begin_inset Formula $B_{x}$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+ y 
+\begin_inset Formula $B_{y}$
+\end_inset
+
+ en 
+\begin_inset Formula $2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee la ecuación de la recta que pasa por dos
+ puntos.
+\begin_inset Formula 
+\[
+a_{1}:(y-A_{y})\left(B_{x}-A_{x}\right)=\left(x-A_{x}\right)\left(B_{y}-A_{y}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Con el puntero modifique el valor de los deslizadores.
+ 
+\end_layout
+
+\begin_layout Enumerate
+En la barra de comandos escriba 
+\begin_inset Formula $A=\left(A_{x},A_{y}\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $B=\left(B_{x},B_{y}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Cree el deslizador 
+\begin_inset Formula $t$
+\end_inset
+
+, fije el valor mínimo en 0, el máximo en 1 y el incremento en 
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+En la barra de comandos teclee 
+\begin_inset Formula 
+\begin{equation}
+X=A+t\left(B-A\right)\label{eq:ec de mov}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Con el botón derecho del mouse fije animación automática sobre el deslizador.
+\end_layout
+
+\begin_layout Enumerate
+Cambie las velocidades de desplazamiento del punto 
+\begin_inset Formula $X$
+\end_inset
+
+ a 2 y a 
+\begin_inset Formula $0.5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Qué representa la ecuación 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:ec de mov"
+
+\end_inset
+
+? 
+\end_layout
+
+\begin_layout Exercise
+Abra el archivo 
+\begin_inset Quotes eld
+\end_inset
+
+Parámetros de una recta.ggb
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Mueva los deslizadores y obtenga una representación gráfica del parámetro
+ considerado.
+\end_layout
+
+\begin_layout Enumerate
+Identifique: pendientes, ordenadas al origen, intersecciones con lo ejes,
+ distancias al origen, y demás significados gráficos de los parámetros.
+\end_layout
+
+\begin_layout Enumerate
+Trate de superponer las rectas moviendo los deslizadores 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Subsection
+Función Cuadrática
+\end_layout
+
+\begin_layout Definition
+Una función real 
+\begin_inset Formula $f$
+\end_inset
+
+ se dice lineal si y solo si es de la forma
+\begin_inset Formula 
+\[
+\begin{array}{cccc}
+f: & \mathbb{R} & \rightarrow & \mathbb{R}\\
+ & x & \mapsto & ax^{2}+bx+c
+\end{array}
+\]
+
+\end_inset
+
+con 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+ y 
+\begin_inset Formula $c$
+\end_inset
+
+ valores reales con 
+\begin_inset Formula $a\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Exercise
+Abra el GeoGebra y cree una hoja llamada funcion_cuadratica.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree tres deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+ y 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ Elija la opción Número
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $f\left(x\right)=ax^{2}+bx+c$
+\end_inset
+
+ (Enter)
+\end_layout
+
+\begin_layout Enumerate
+Con el puntero modifique el valor de los deslizadores.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Representación gráfica de una función cuadráticas: Ecuaciones de una parábola.
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada ecuacion_parabola.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree cuatro deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $b$
+\end_inset
+
+, 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $h$
+\end_inset
+
+, 
+\begin_inset Formula $k$
+\end_inset
+
+, 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+.
+ Elija la opción Número
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $a_{1}:y=ax^{2}+bx+c$
+\end_inset
+
+ (Enter).
+ Pinte la curva de azul
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $a_{2}:y=a\left(x-h\right)^{2}+k$
+\end_inset
+
+ (Enter).
+ Pinte la curva de verde
+\end_layout
+
+\begin_layout Enumerate
+En la linea de comandos teclee 
+\begin_inset Formula $a_{3}:y=a\left(x-x_{1}\right)\left(x-x_{2}\right)$
+\end_inset
+
+ (Enter).
+ Pinte la curva de rojo
+\end_layout
+
+\begin_layout Enumerate
+Fije los deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+, 
+\begin_inset Formula $h$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+, 
+\begin_inset Formula $k$
+\end_inset
+
+ en 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ Trate de modificar los otros deslizadores hasta que las tres curvas se
+ superpongan.
+ Extraiga conclusiones.
+\end_layout
+
+\end_deeper
+\begin_layout Definition
+El lugar geométrico de los puntos 
+\begin_inset Formula $X$
+\end_inset
+
+ que equidistan de una recta 
+\begin_inset Formula $d$
+\end_inset
+
+ y de un punto 
+\begin_inset Formula $F$
+\end_inset
+
+ exterior a 
+\begin_inset Formula $d$
+\end_inset
+
+, se llama parábola.
+ 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama foco de la parábola, 
+\begin_inset Formula $d$
+\end_inset
+
+ directriz.
+ La perpendicular 
+\begin_inset Formula $e$
+\end_inset
+
+ a 
+\begin_inset Formula $d$
+\end_inset
+
+ por 
+\begin_inset Formula $F$
+\end_inset
+
+ se llama eje de la parábola.
+ el punto de intersección de la parábola con 
+\begin_inset Formula $e$
+\end_inset
+
+ se llama vértice.
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada foco_directriz.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree dos deslizadores 
+\begin_inset Formula $a$
+\end_inset
+
+, 
+\begin_inset Formula $l$
+\end_inset
+
+.
+ Elija la opción Número.
+\end_layout
+
+\begin_layout Enumerate
+Sea una recta 
+\begin_inset Formula $r$
+\end_inset
+
+ con un punto 
+\begin_inset Formula $M$
+\end_inset
+
+ en 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ Cree una herramienta que construya un cuadrado de lado 
+\begin_inset Formula $l$
+\end_inset
+
+ que tenga un lado sobre 
+\begin_inset Formula $r$
+\end_inset
+
+ y 
+\begin_inset Formula $M$
+\end_inset
+
+ el punto medio de ese lado.
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $a_{1}:y=ax^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use la herramienta para construir un cuadrado de lado 
+\begin_inset Formula $l=2$
+\end_inset
+
+ con uno de sus lados en el eje 
+\begin_inset Formula $y$
+\end_inset
+
+ y que el punto medio de uno de sus lados sea el origen de coordenadas.
+\end_layout
+
+\begin_layout Enumerate
+Mueva 
+\begin_inset Formula $a$
+\end_inset
+
+ hasta que la parábola pase por algún vértice del cuadrado dibujado.
+\end_layout
+
+\begin_layout Enumerate
+Realice una conjetura con la relación entre los parámetros 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $l$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Renombre los vértices del cuadrado 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+ y 
+\begin_inset Formula $D$
+\end_inset
+
+; en ese orden con 
+\begin_inset Formula $A$
+\end_inset
+
+ y 
+\begin_inset Formula $D$
+\end_inset
+
+ sobre el eje 
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Ponga un punto 
+\begin_inset Formula $X$
+\end_inset
+
+ cualquiera sobre la parábola y trace una circunferencia de centro 
+\begin_inset Formula $X$
+\end_inset
+
+ que pase por 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Trace la recta 
+\begin_inset Formula $CD$
+\end_inset
+
+.
+ Realice conjeturas.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Trayectoria Parabólica
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada punto_parabola.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Cree tres deslizadores 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ Elija la opción ángulo para 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ y número para los otros dos.
+\end_layout
+
+\begin_layout Enumerate
+Elija el valor mínimo para 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $0$
+\end_inset
+
+ y el máximo 20.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Elija el valor mínimo para 
+\begin_inset Formula $\alpha$
+\end_inset
+
+, 
+\begin_inset Formula $0\text{°}$
+\end_inset
+
+ y el máximo 90°.
+\end_layout
+
+\begin_layout Enumerate
+Elija el valor mínimo para 
+\begin_inset Formula $t$
+\end_inset
+
+, 
+\begin_inset Formula $0$
+\end_inset
+
+ y el máximo 3.
+ Fije un incremento de 
+\begin_inset Formula $0.01$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $X=\left(V_{0}\cos\left(\alpha\right)t,V_{0}\sin\left(\alpha\right)t-5t^{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Fije los deslizadores 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ en 
+\begin_inset Formula $10$
+\end_inset
+
+ y 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ en 
+\begin_inset Formula $30\text{° }$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Active la vista de ejes.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Desplace 
+\begin_inset Formula $t$
+\end_inset
+
+ desde 
+\begin_inset Formula $0$
+\end_inset
+
+ hasta que vuelva a tocar el eje de las 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ Anote ese valor de 
+\begin_inset Formula $t$
+\end_inset
+
+ como 
+\begin_inset Formula $t_{v}$
+\end_inset
+
+.
+ Cambie el valor máximo que tiene el deslizador 
+\begin_inset Formula $t$
+\end_inset
+
+ a 
+\begin_inset Formula $t_{v}$
+\end_inset
+
+ y active animación.
+\end_layout
+
+\begin_layout Enumerate
+Modifique la escala de los ejes para tener mejor apreciación de la máxima
+ altura que alcanza este punto.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Modifique el valor del ángulo para que alcance un valor máximo.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Obtenga valores de los parámetros para que el móvil alcance una altura máxima
+ de 3 y un alcance de 5.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Derivación e integración
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada Calculo.ggb 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+En la linea de comandos coloque 
+\begin_inset Formula $f(x)=Si[x>1,0,Si[x<-1,0,exp(1/(1-x^{2}))]]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+¿Esta bien definida esta función? ¿Es continua en todos los reales?
+\end_layout
+
+\begin_layout Enumerate
+Calcule 
+\begin_inset Formula $f'$
+\end_inset
+
+, 
+\begin_inset Formula $f''$
+\end_inset
+
+ usando el comando Derivada
+\end_layout
+
+\begin_layout Enumerate
+Calcule la integral de 
+\begin_inset Formula $f$
+\end_inset
+
+ entre 
+\begin_inset Formula $-5$
+\end_inset
+
+ y 
+\begin_inset Formula $5$
+\end_inset
+
+, usando el comando Integral.
+ Llame a este valor 
+\begin_inset Formula $c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Cree un deslizador llamado 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ de tipo número.
+ Especifique el valor mínimo a 
+\begin_inset Formula $0$
+\end_inset
+
+ y el máximo a 
+\begin_inset Formula $1.5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Escriba en la línea de comandos 
+\begin_inset Formula $h(x)=f(x/ε)/(c\timesε)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Calcule la integral de 
+\begin_inset Formula $h\left(x\right)$
+\end_inset
+
+ entre 5 y 
+\begin_inset Formula $-5$
+\end_inset
+
+.
+ Modifique el valor de 
+\begin_inset Formula $\epsilon$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Exercise
+Cree una hoja llamada trigonometrica.ggb 
+\end_layout
+
+\begin_layout Enumerate
+En la línea de comandos teclee 
+\begin_inset Formula $f\left(x\right)=\sin\left(x\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Coloque el punto 
+\begin_inset Formula $A$
+\end_inset
+
+ sobre la sinusoide
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $Tangente[A,f]$
+\end_inset
+
+.
+ Llame a esta recta 
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $Pendiente[a]$
+\end_inset
+
+.
+ Llame a esta cantidad 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Active rótulo
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $A\,(1,0)$
+\end_inset
+
+.
+ Llame a esta cantidad 
+\begin_inset Formula $c$
+\end_inset
+
+ ¿Qué significa esta cantidad?
+\end_layout
+
+\begin_layout Enumerate
+Teclee en la línea de comandos 
+\begin_inset Formula $B=(c,b)$
+\end_inset
+
+.
+ Active rastro para 
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Desplace el punto 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+¿Sobre qué curva se desplaza el punto 
+\begin_inset Formula $B$
+\end_inset
+
+? Verifíquelo gráficamente.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Sugerencias para la resolución de los problemas
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label={Sugerencia} 
+\backslash
+arabic{enumi}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Ejer-:sug punto medio hip-centro circunf"
+
+\end_inset
+
+ Trace la base media.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "punto medio hipote-centro circ"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:sug RecAngIns"
+
+\end_inset
+
+Suponga que el vértice 
+\begin_inset Formula $A$
+\end_inset
+
+ de un ángulo inscrito no está sobre la circunferencia, como muestra la
+ figura 
+\begin_inset Graphics
+	filename vertice ang ins.png
+	lyxscale 15
+	scale 20
+
+\end_inset
+
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "EjercRec Ang Ins"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Ejercicio-:sug ceva"
+
+\end_inset
+
+Haga la razón entre áreas de triángulos con la misma altura, luego aplique
+ la propiedad 
+\begin_inset Formula $\frac{a}{b}=\frac{c}{d}=\frac{a-c}{b-d}$
+\end_inset
+
+.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Ejerc proporcion ceva"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Ejercicio-:sug 9 puntos"
+
+\end_inset
+
+Aplique lo demostrado en los ejercicios 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "rectángulo-circunferencia"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cuadrilatero inscribible"
+
+\end_inset
+
+.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Demuestre circ 9 puntos"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:PotenciaPunto"
+
+\end_inset
+
+Trace la tangente desde el punto 
+\begin_inset Formula $P$
+\end_inset
+
+, encuentre un triángulos semejantes teniendo en cuenta el punto de tangencia.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "EjercPotencia Punto"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Potencia circuncentro"
+
+\end_inset
+
+Use la relación 
+\begin_inset Formula $R^{2}-d^{2}=LI\times LA$
+\end_inset
+
+ y muestre que 
+\begin_inset Formula $LI=LB$
+\end_inset
+
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Potencia -2rR"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:fuente de luz"
+
+\end_inset
+
+Tenga en cuenta el ejercicio 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Ortocentro-Incentro Ortico"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:CuadradoSectorCirc"
+
+\end_inset
+
+Construya un cuadrado exterior sobre la cuerda 
+\begin_inset Formula $ABCD.$
+\end_inset
+
+ Ubique la intersección de 
+\begin_inset Formula $OD$
+\end_inset
+
+ y 
+\begin_inset Formula $OB$
+\end_inset
+
+ con el arco del sector circular.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Dado-un-sector circular"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:ParalelogHomotecia"
+
+\end_inset
+
+ 1.
+ Demuestre que E ,C y F están alineados.
+ Lo que es equivalente a probar que 
+\begin_inset Formula $ECD+DCB+BCF=180^{\circ}$
+\end_inset
+
+.
+ 2.
+ Dado que 
+\begin_inset Formula $\frac{EF}{EC}=k$
+\end_inset
+
+, aplique el teorema del coseno en los triángulos EDC y EAF, para encontrar
+ 
+\begin_inset Formula $k$
+\end_inset
+
+ en función de los lados del paralelogramo.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "-es-un paralelogramo"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Problema-:sug raton"
+
+\end_inset
+
+ Llame 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+ y 
+\begin_inset Formula $C$
+\end_inset
+
+ a los puntos de salida.
+ Cree un deslizador 
+\begin_inset Formula $r$
+\end_inset
+
+ (
+\begin_inset Graphics
+	filename desliza.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+).
+ Trace circunferencias con centro en cada uno de los puntos de salida y
+ radio 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ Explore la situación moviendo el deslizador 
+\begin_inset Formula $r$
+\end_inset
+
+.
+ Formule conjeturas.
+ Analice para 
+\begin_inset Formula $ABC$
+\end_inset
+
+ acutángulo, rectángulo y obtusángulo.
+ (
+\shape italic
+Volver al problema
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "ratón"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "suger oso"
+
+\end_inset
+
+ Esquematice un modelo de esta situación.
+ Trace el lugar geométrico de los puntos que equidistan de las vías (considerada
+s sobre rectas).
+ Determine la región de ubicación de los puntos de la guarida del oso.
+ (
+\shape italic
+Volver al problema
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "oso"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:Problema-:suger familia"
+
+\end_inset
+
+ Rote el triángulo 
+\begin_inset Formula $AFB$
+\end_inset
+
+ (
+\begin_inset Graphics
+	filename simetria.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename rotacion.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+) con centro en 
+\begin_inset Formula $A$
+\end_inset
+
+, un ángulo de 
+\begin_inset Formula $60\text{º}$
+\end_inset
+
+, de modo que 
+\begin_inset Formula $AB'$
+\end_inset
+
+ quede del otro lado de 
+\begin_inset Formula $ABC$
+\end_inset
+
+, respecto de la recta 
+\begin_inset Formula $AB$
+\end_inset
+
+.
+ ¿Qué puede decir de los triángulos 
+\begin_inset Formula $AB'B$
+\end_inset
+
+ y 
+\begin_inset Formula $AFF'$
+\end_inset
+
+? Trace la poligonal 
+\begin_inset Formula $B'F'FC$
+\end_inset
+
+.
+ (
+\shape italic
+Volver al problema
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "familia"
+
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Section
+\start_of_appendix
+Herramientas
+\end_layout
+
+\begin_layout Standard
+Las herramientas permiten crear nuevos objetos a través de mecanismo de
+ señalamiento y acción.
+ Los objetos pueden ser de distintos tipos, en general nos ocuparemos de
+ los 
+\shape italic
+objetos geométricos
+\shape default
+.
+\end_layout
+
+\begin_layout Subsection
+
+\series medium
+\shape italic
+Caja de herramientas
+\end_layout
+
+\begin_layout Standard
+Las distintas herramientas para construcciones geométricas se encuentran
+ desplegando los siguiente iconos: 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename caja de herram.png
+	scale 50
+	groupId iconos
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series medium
+\shape italic
+Creación de una nueva herramienta
+\series default
+\shape default
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Creación-de-una"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Desde una construcción existente, se pueden crear herramientas propias.
+\end_layout
+
+\begin_layout Standard
+\align center
+Menú de Herramientas
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Creación de Herramienta Nueva
+\end_layout
+
+\begin_layout Standard
+Se despliega una ventana de diálogo donde se especifican los objetos de
+ salida (desplegar la barra de arriba y seleccionar), los objetos de entrada,
+ el nombre de la herramienta, el nombre del comando, una breve ayuda para
+ usar la herramienta y el icono con que aparecerá en la barra de herramientas.
+\end_layout
+
+\begin_layout Standard
+Cuando se guarda el archivo en que se creó la nueva herramienta, ésta también
+ queda automáticamente salvada con un archivo .ggb como parte del mismo,
+ y queda accesible para emplearse con el mouse o ratón.
+ (Volver al ejercicio 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "volver1"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+
+\series medium
+\shape italic
+Acceso a herramientas creadas
+\series default
+\shape default
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Acceso-a-herramientas"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se pueden guardar las herramientas creadas como archivos .ggt, para poder
+ reutilizarlas en otras construcciones de GeoGebra.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+Menú de Herramientas
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Gestión de Herramientas
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Guarda como...
+\end_layout
+
+\begin_layout Standard
+\align left
+Para que esta herramienta quede disponible para otras construcciones:
+\end_layout
+
+\begin_layout Standard
+\align center
+Menú Archivo
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Abre
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Todos los archivos
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+clic en el archivo ggt correspondiente
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Apariencias
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Guarda la Apariencia Actual (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "volver1"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Section
+Imágenes
+\end_layout
+
+\begin_layout Subsection
+
+\series medium
+\shape italic
+Cómo salvar una imagen
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:salvar imagen"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Limitar la zona que se quiere exportar como imagen enmarcando con el ratón
+ la zona a exportar (clic sobre una posición libre de la vista gráfica y
+ arrastrar).
+ 
+\end_layout
+
+\begin_layout Enumerate
+Archivo
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Exporta
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vista Gráfica como Imagen (png,eps)...
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "volver1"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+
+\series medium
+\shape italic
+Cómo insertar una imagen
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename texto.png
+	scale 50
+	groupId iconos
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\begin_inset Graphics
+	filename imagen.png
+	scale 50
+	groupId iconos
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Comandos
+\end_layout
+
+\begin_layout Standard
+Los comandos son una gama más amplia de herramientas.
+ Con éstos se pueden crear nuevos objetos o modificar los existentes.
+ La línea de comandos se encuentra en la parte inferior.
+\end_layout
+
+\begin_layout Standard
+Se clasifican según su función o funciones dado que pueden emplearse con
+ diversos propósitos y su modalidad puede incluso cambiar según el contexto
+ en que operen.
+\end_layout
+
+\begin_layout Subsection
+
+\series medium
+\shape italic
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Crear-un-comando"
+
+\end_inset
+
+Crear un comando para hacer cuentas
+\end_layout
+
+\begin_layout Standard
+En la barra de Entrada, introducir, por ejemplo: 
+\begin_inset Formula $potencia=c*d$
+\end_inset
+
+, donde 
+\begin_inset Formula $c$
+\end_inset
+
+ y 
+\begin_inset Formula $d$
+\end_inset
+
+ son las longitudes de dos segmentos creados anteriormente.
+ (
+\shape italic
+Volver al ejercicio
+\shape default
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "EjercPotencia Punto"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "custom"
+width "2.5cm"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
