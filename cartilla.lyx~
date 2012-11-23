@@ -202,7 +202,7 @@ Vaya al inicio de la construcción e interprete los pasos en la Vista Algebraica
 \begin_layout Enumerate
 Busque la herramienta Tangentes (
 \begin_inset Graphics
-	filename perpendicular.png
+	filename ../../../../Descargas/perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -215,7 +215,7 @@ Busque la herramienta Tangentes (
 
 
 \begin_inset Graphics
-	filename tangente.png
+	filename ../../../../Descargas/tangente.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -686,7 +686,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ceva.png
+	filename ../../../../Descargas/ceva.png
 	lyxscale 30
 
 \end_inset
@@ -1101,7 +1101,7 @@ Dibuje un triángulo
 
  (
 \begin_inset Graphics
-	filename poligono.png
+	filename ../../../../Descargas/poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1114,7 +1114,7 @@ Dibuje un triángulo
 \begin_layout Enumerate
 Determine los puntos medios de los lados (
 \begin_inset Graphics
-	filename punto.png
+	filename ../../../../Descargas/punto.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1127,7 +1127,7 @@ Determine los puntos medios de los lados (
 
 
 \begin_inset Graphics
-	filename pto-medio.png
+	filename ../../../../Descargas/pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1172,7 +1172,7 @@ Marque el ortocentro (Ortocentro, herramienta creada)
 \begin_layout Enumerate
 Determine los pies de las alturas (
 \begin_inset Graphics
-	filename perpendicular.png
+	filename ../../../../Descargas/perpendicular.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1185,7 +1185,7 @@ Determine los pies de las alturas (
 
 
 \begin_inset Graphics
-	filename interseccion.png
+	filename ../../../../Descargas/interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1219,7 +1219,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Determine los puntos medios entre los vértices y el ortocentro (
 \begin_inset Graphics
-	filename pto-medio.png
+	filename ../../../../Descargas/pto-medio.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1232,7 +1232,7 @@ Determine los puntos medios entre los vértices y el ortocentro (
 
 
 \begin_inset Graphics
-	filename interseccion.png
+	filename ../../../../Descargas/interseccion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1265,7 +1265,7 @@ Muestra Objeto)
 \begin_layout Enumerate
 Trace la circunferencia de los 9 puntos (
 \begin_inset Graphics
-	filename circunferencia.png
+	filename ../../../../Descargas/circunferencia.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1278,7 +1278,7 @@ Trace la circunferencia de los 9 puntos (
 
 
 \begin_inset Graphics
-	filename tres-puntos.png
+	filename ../../../../Descargas/tres-puntos.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1295,7 +1295,7 @@ Compruebe que existe para cualquier
 
  (
 \begin_inset Graphics
-	filename arrastra.png
+	filename ../../../../Descargas/arrastra.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1582,7 +1582,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FormulaEuler.png
+	filename ../../../../Descargas/FormulaEuler.png
 	lyxscale 30
 	scale 65
 
@@ -1615,8 +1615,12 @@ name "Potencia -2rR"
 
 \end_inset
 
-Mostrar que la potencia del centro de la circunferencia inscrita con respecto
- a la circunferencia circunscrita es 
+Muestre que la potencia del centro de la circunferencia inscrita con respecto
+ a la circunferencia circunscrita de un triángulo 
+\begin_inset Formula $ABC$
+\end_inset
+
+ es 
 \begin_inset Formula $-2rR$
 \end_inset
 
@@ -1717,14 +1721,42 @@ Se llama traslación de vector
 \begin_inset Formula $PP'=\overrightarrow{v}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Exercise
 Reconstruya la casa.
- Abra el archivo Casa.ggb
+ Abra el archivo Casa.ggb.
+ Use las herramientas Vector entre Dos Puntos (
+\begin_inset Graphics
+	filename ../../../../Descargas/recta.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vector entre Dos Puntos) y Traslada Objeto por un Vector (
+\begin_inset Graphics
+	filename ../../../../Descargas/simetria.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Traslada Objeto por un Vector)
 \end_layout
 
+\begin_deeper
 \begin_layout Exercise
 Determine vectores de una composición de traslaciones aplicada a la circunferenc
 ia con centro en 
@@ -1748,7 +1780,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename TrasladaCircunf.png
+	filename ../../../../Descargas/carpeta sin título/TrasladaCircunf.png
 	lyxscale 20
 	scale 35
 
@@ -1808,6 +1840,7 @@ reference "fig:Segmento-inscribible"
  Abra el archivo TrasladaSegmento.ggb
 \end_layout
 
+\end_deeper
 \begin_layout Exercise
 \begin_inset Float figure
 wide false
@@ -1820,7 +1853,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename TrasladaSegmento.png
+	filename ../../../../Descargas/carpeta sin título/TrasladaSegmento.png
 	lyxscale 40
 	scale 80
 
@@ -1882,7 +1915,7 @@ Construya
 
  equilátero (
 \begin_inset Graphics
-	filename poligono.png
+	filename ../../../../Descargas/poligono.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -1893,7 +1926,7 @@ Construya
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-polígono regular)
+Polígono Regular)
 \end_layout
 
 \begin_layout Enumerate
@@ -1905,9 +1938,20 @@ Sobre los segmentos
 \begin_inset Formula $AC$
 \end_inset
 
-, aplique 
-\shape italic
-Ver
+, aplique la herramienta Vector Entre Dos Puntos (
+\begin_inset Graphics
+	filename ../../../../Descargas/recta.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vector Entre Dos Puntos)
 \end_layout
 
 \begin_layout Enumerate
@@ -1951,7 +1995,7 @@ En la barra de comandos, escriba
 \begin_inset Formula $n$
 \end_inset
 
- distintos valores enteros (entre -2 y 2, por ejemplo), que para cada traslación.
+ son distintos valores enteros (entre -2 y 2, por ejemplo), para cada traslación.
 \end_layout
 
 \begin_layout Definition
@@ -2060,13 +2104,12 @@ Una simetría axial de eje
 .
 \end_layout
 
-\begin_layout Exercise
-Compruebe si la inicial de su nombre y/o apellido tiene simetría de eje
- horizontal y vertical.
- Si es así, tiene un premio.
+\begin_layout Dedicatory
+Le dedicamos un regalo si la inicial de su nombre y/o apellido tiene simetría
+ de eje horizontal y vertical.
+ 
 \end_layout
 
-\begin_deeper
 \begin_layout Exercise
 Sea el triángulo 
 \begin_inset Formula $ABC$
@@ -2130,35 +2173,6 @@ Sea el triángulo
 \end_layout
 
 \begin_deeper
-\begin_layout Exercise
-El segmento 
-\begin_inset Formula $A'B'$
-\end_inset
-
- es imagen del segmento 
-\begin_inset Formula $AB$
-\end_inset
-
-.
- Probar que si 
-\begin_inset Formula $C$
-\end_inset
-
- es un punto de la recta 
-\begin_inset Formula $AB$
-\end_inset
-
-, su imagen 
-\begin_inset Formula $C'$
-\end_inset
-
- está en la recta 
-\begin_inset Formula $A'B'$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Proposition
 \begin_inset CommandInset label
 LatexCommand label
@@ -2179,7 +2193,7 @@ Sea
 \begin_inset Formula $ABC$
 \end_inset
 
- un triángulo rectángulo rectángulo en 
+ un triángulo rectángulo en 
 \begin_inset Formula $C$
 \end_inset
 
@@ -2187,6 +2201,7 @@ Sea
  Demuestre el teorema de Pitágoras aplicando los siguientes pasos:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 Construya externamente cuadrados, 
 \begin_inset Formula $CFGB$
@@ -2447,11 +2462,7 @@ Abra el archivo ImagenHomot.ggb.
 \begin_inset Formula $A$
 \end_inset
 
- 
-\shape italic
-Ver
-\shape default
-aplique una homotecia, de razón 
+ aplique una homotecia, de razón 
 \begin_inset Formula $4$
 \end_inset
 
@@ -2550,7 +2561,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Paralelogramo Homotecia.png
+	filename ../../../../Descargas/carpeta sin título/Paralelogramo Homotecia.png
 	lyxscale 10
 	scale 40
 
@@ -2685,7 +2696,7 @@ Dada una circunferencia
 Abra un archivo ggb.
  Trace una circunferencia y aplique la herramienta Inversión (
 \begin_inset Graphics
-	filename simetria.png
+	filename ../../../../Descargas/simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2698,7 +2709,7 @@ Abra un archivo ggb.
 
  
 \begin_inset Graphics
-	filename inversion.png
+	filename ../../../../Descargas/inversion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -2977,7 +2988,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename FermatFigura.png
+	filename ../../../../Descargas/FermatFigura.png
 	lyxscale 30
 	scale 90
 
@@ -3042,12 +3053,8 @@ un punto del primer cuadrante.
 
 
 \emph on
-
-\begin_inset space \space{}
-\end_inset
-
-en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
- encontrar el de menor área.
+ en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
+ encuentre el de menor área.
 \end_layout
 
 \begin_deeper
@@ -3326,7 +3333,7 @@ Suponga que el vértice
  de un ángulo inscrito no está sobre la circunferencia, como muestra la
  figura 
 \begin_inset Graphics
-	filename vertice ang ins.png
+	filename ../../../../Descargas/vertice ang ins.png
 	lyxscale 15
 	scale 20
 
@@ -3580,7 +3587,7 @@ name "enu:Problema-:sug raton"
 
  (
 \begin_inset Graphics
-	filename desliza.png
+	filename ../../../../Descargas/desliza.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3657,7 +3664,7 @@ name "enu:Problema-:suger familia"
 
  (
 \begin_inset Graphics
-	filename simetria.png
+	filename ../../../../Descargas/simetria.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3670,7 +3677,7 @@ name "enu:Problema-:suger familia"
 
 
 \begin_inset Graphics
-	filename rotacion.png
+	filename ../../../../Descargas/rotacion.png
 	lyxscale 30
 	scale 30
 	groupId iconito
@@ -3757,7 +3764,7 @@ Las distintas herramientas para construcciones geométricas se encuentran
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename caja de herram.png
+	filename ../../../../Descargas/caja de herram.png
 	scale 50
 	groupId iconos
 
@@ -3953,7 +3960,7 @@ Cómo insertar una imagen
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename texto.png
+	filename ../../../../Descargas/texto.png
 	scale 50
 	groupId iconos
 
@@ -3965,7 +3972,7 @@ Cómo insertar una imagen
 
 
 \begin_inset Graphics
-	filename imagen.png
+	filename ../../../../Descargas/imagen.png
 	scale 50
 	groupId iconos
 

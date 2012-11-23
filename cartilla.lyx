@@ -1615,7 +1615,7 @@ name "Potencia -2rR"
 
 \end_inset
 
-Mostrar que la potencia del centro de la circunferencia inscrita con respecto
+Muestre que la potencia del centro de la circunferencia inscrita con respecto
  a la circunferencia circunscrita de un triángulo 
 \begin_inset Formula $ABC$
 \end_inset
@@ -1721,14 +1721,42 @@ Se llama traslación de vector
 \begin_inset Formula $PP'=\overrightarrow{v}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Exercise
 Reconstruya la casa.
- Abra el archivo Casa.ggb
+ Abra el archivo Casa.ggb.
+ Use las herramientas Vector entre Dos Puntos (
+\begin_inset Graphics
+	filename recta.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vector entre Dos Puntos) y Traslada Objeto por un Vector (
+\begin_inset Graphics
+	filename simetria.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Traslada Objeto por un Vector)
 \end_layout
 
+\begin_deeper
 \begin_layout Exercise
 Determine vectores de una composición de traslaciones aplicada a la circunferenc
 ia con centro en 
@@ -1812,6 +1840,7 @@ reference "fig:Segmento-inscribible"
  Abra el archivo TrasladaSegmento.ggb
 \end_layout
 
+\end_deeper
 \begin_layout Exercise
 \begin_inset Float figure
 wide false
@@ -1897,7 +1926,7 @@ Construya
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-polígono regular)
+Polígono Regular)
 \end_layout
 
 \begin_layout Enumerate
@@ -1909,9 +1938,20 @@ Sobre los segmentos
 \begin_inset Formula $AC$
 \end_inset
 
-, aplique 
-\shape italic
-Ver
+, aplique la herramienta Vector Entre Dos Puntos (
+\begin_inset Graphics
+	filename recta.png
+	lyxscale 30
+	scale 30
+	groupId iconito
+
+\end_inset
+
+
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Vector Entre Dos Puntos)
 \end_layout
 
 \begin_layout Enumerate
@@ -1955,7 +1995,7 @@ En la barra de comandos, escriba
 \begin_inset Formula $n$
 \end_inset
 
- distintos valores enteros (entre -2 y 2, por ejemplo), que para cada traslación.
+ son distintos valores enteros (entre -2 y 2, por ejemplo), para cada traslación.
 \end_layout
 
 \begin_layout Definition
@@ -2064,13 +2104,12 @@ Una simetría axial de eje
 .
 \end_layout
 
-\begin_layout Exercise
-Compruebe si la inicial de su nombre y/o apellido tiene simetría de eje
- horizontal y vertical.
- Si es así, tiene un premio.
+\begin_layout Dedicatory
+Le dedicamos un regalo si la inicial de su nombre y/o apellido tiene simetría
+ de eje horizontal y vertical.
+ 
 \end_layout
 
-\begin_deeper
 \begin_layout Exercise
 Sea el triángulo 
 \begin_inset Formula $ABC$
@@ -2134,35 +2173,6 @@ Sea el triángulo
 \end_layout
 
 \begin_deeper
-\begin_layout Exercise
-El segmento 
-\begin_inset Formula $A'B'$
-\end_inset
-
- es imagen del segmento 
-\begin_inset Formula $AB$
-\end_inset
-
-.
- Probar que si 
-\begin_inset Formula $C$
-\end_inset
-
- es un punto de la recta 
-\begin_inset Formula $AB$
-\end_inset
-
-, su imagen 
-\begin_inset Formula $C'$
-\end_inset
-
- está en la recta 
-\begin_inset Formula $A'B'$
-\end_inset
-
-.
-\end_layout
-
 \begin_layout Proposition
 \begin_inset CommandInset label
 LatexCommand label
@@ -2183,7 +2193,7 @@ Sea
 \begin_inset Formula $ABC$
 \end_inset
 
- un triángulo rectángulo rectángulo en 
+ un triángulo rectángulo en 
 \begin_inset Formula $C$
 \end_inset
 
@@ -2191,6 +2201,7 @@ Sea
  Demuestre el teorema de Pitágoras aplicando los siguientes pasos:
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 Construya externamente cuadrados, 
 \begin_inset Formula $CFGB$
@@ -2451,11 +2462,7 @@ Abra el archivo ImagenHomot.ggb.
 \begin_inset Formula $A$
 \end_inset
 
- 
-\shape italic
-Ver
-\shape default
-aplique una homotecia, de razón 
+ aplique una homotecia, de razón 
 \begin_inset Formula $4$
 \end_inset
 
@@ -3046,12 +3053,8 @@ un punto del primer cuadrante.
 
 
 \emph on
-
-\begin_inset space \space{}
-\end_inset
-
-en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
- encontrar el de menor área.
+ en uno de sus lados, y los lados restantes sobre los ejes de coordenadas,
+ encuentre el de menor área.
 \end_layout
 
 \begin_deeper
