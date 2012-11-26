@@ -3261,7 +3261,7 @@ Una función real
 \begin_inset Formula $f$
 \end_inset
 
- se dice lineal si y solo si es de la forma
+ se dice lineal si y sólo si es de la forma
 \begin_inset Formula 
 \[
 \begin{array}{cccc}
@@ -3303,7 +3303,7 @@ Cree dos deslizadores
 \end_layout
 
 \begin_layout Enumerate
-En la linea de comandos teclee 
+En la línea de comandos teclee 
 \begin_inset Formula $f\left(x\right)=ax+b$
 \end_inset
 
@@ -3330,7 +3330,7 @@ Explore las combinaciones
 \end_inset
 
 , 
-\begin_inset Formula $May+Flecha$
+\begin_inset Formula $Mayus+Flecha$
 \end_inset
 
 , sobre los deslizadores.
@@ -4226,7 +4226,11 @@ Desplace el punto
 \end_layout
 
 \begin_layout Enumerate
+Teclee 
+\begin_inset Formula $f\left(x\right)=x^{3}-x$
+\end_inset
 
+ en la linea de comandos.
 \end_layout
 
 \end_deeper
