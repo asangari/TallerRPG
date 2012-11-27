@@ -1032,7 +1032,11 @@ Trace los segmentos
 \begin_inset Formula $OA$
 \end_inset
 
-=objeto segmento 
+
+\begin_inset Formula $=$
+\end_inset
+
+ objeto segmento 
 \begin_inset Formula $OA$
 \end_inset
 
@@ -2270,7 +2274,7 @@ reference "prop:Si-un-paralelogramo"
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "$(ADEC)$"
-description "Área del polígono ADEC"
+description "Área del polígono $ADEC$"
 
 \end_inset
 
@@ -2371,7 +2375,7 @@ Dado un triángulo escaleno
 \begin_inset Formula $ABC$
 \end_inset
 
- cuyos lados son capaces de reflejar la luz, ¿en qué pundo del lado 
+ cuyos lados son capaces de reflejar la luz, ¿en qué punto del lado 
 \begin_inset Formula $AB$
 \end_inset
 
@@ -3523,7 +3527,7 @@ Una función real
 \begin_inset Formula $f$
 \end_inset
 
- se dice lineal si y solo si es de la forma
+ se dice cuadrática si y sólo si es de la forma
 \begin_inset Formula 
 \[
 \begin{array}{cccc}
@@ -3599,7 +3603,7 @@ Cree una hoja llamada ecuacion_parabola.ggb
 
 \begin_deeper
 \begin_layout Enumerate
-Cree cuatro deslizadores 
+Cree siete deslizadores 
 \begin_inset Formula $a$
 \end_inset
 
@@ -4026,7 +4030,28 @@ Modifique la escala de los ejes para tener mejor apreciación de la máxima
 \end_layout
 
 \begin_layout Enumerate
-Modifique el valor del ángulo para que alcance un valor máximo.
+Teclee en la línea de comandos 
+\begin_inset Formula $y=x\tan(\text{α})-5x^{2}/((V_{0})^{2}(\cos(\text{α}))^{2})$
+\end_inset
+
+.
+ ¿Qué significa esta curva? (desplace el deslizador 
+\begin_inset Formula $t$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Enumerate
+Modifique el valor del ángulo 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ para que el alcance (sobre 
+\begin_inset Formula $x$
+\end_inset
+
+) sea máximo.
  
 \end_layout
 
@@ -4034,6 +4059,10 @@ Modifique el valor del ángulo para que alcance un valor máximo.
 Obtenga valores de los parámetros para que el móvil alcance una altura máxima
  de 3 y un alcance de 5.
  
+\end_layout
+
+\begin_layout Enumerate
+De una explicación algebraica.
 \end_layout
 
 \end_deeper
@@ -4494,7 +4523,19 @@ name "enu:ParalelogHomotecia"
 \end_inset
 
  1.
- Demuestre que E ,C y F están alineados.
+ Demuestre que 
+\begin_inset Formula $E$
+\end_inset
+
+ ,
+\begin_inset Formula $C$
+\end_inset
+
+ y 
+\begin_inset Formula $F$
+\end_inset
+
+ están alineados.
  Lo que es equivalente a probar que 
 \begin_inset Formula $ECD+DCB+BCF=180^{\circ}$
 \end_inset
@@ -4505,8 +4546,15 @@ name "enu:ParalelogHomotecia"
 \begin_inset Formula $\frac{EF}{EC}=k$
 \end_inset
 
-, aplique el teorema del coseno en los triángulos EDC y EAF, para encontrar
- 
+, aplique el teorema del coseno en los triángulos 
+\begin_inset Formula $EDC$
+\end_inset
+
+ y 
+\begin_inset Formula $EAF$
+\end_inset
+
+, para encontrar 
 \begin_inset Formula $k$
 \end_inset
 
