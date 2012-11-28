@@ -4087,7 +4087,7 @@ Cree una hoja llamada Calculo.ggb
 \begin_deeper
 \begin_layout Enumerate
 En la linea de comandos coloque 
-\begin_inset Formula $f(x)=Si[x>1,0,Si[x<-1,0,exp(1/(1-x^{2}))]]$
+\begin_inset Formula $f(x)=Si[x>-1,Si[x<1,exp(1/(x^{2}-1))],0]$
 \end_inset
 
 
